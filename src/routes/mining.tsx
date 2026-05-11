@@ -21,44 +21,44 @@ function MiningPage() {
   const { t } = useI18n();
 
   const PILLARS = [
-    { icon: Pickaxe, title: "Exploration", text: "Geological surveys, sampling and resource assessment across Madagascar's mineral basins." },
-    { icon: HardHat, title: "Mining Operations", text: "Extraction, on-site processing and operations management built on Greenfield Mining standards." },
-    { icon: Briefcase, title: "Mining Consulting", text: "Technical consulting, permitting and project structuring for producers and investors." },
-    { icon: Ship, title: "Trade & Export", text: "FOB / CIF export of premium minerals — sea sands, river sands, red soils and chrome ore." },
+    { icon: Pickaxe, title: t("mining.p1.title"), text: t("mining.p1.text") },
+    { icon: HardHat, title: t("mining.p2.title"), text: t("mining.p2.text") },
+    { icon: Briefcase, title: t("mining.p3.title"), text: t("mining.p3.text") },
+    { icon: Ship, title: t("mining.p4.title"), text: t("mining.p4.text") },
   ];
 
   const PRODUCTS = [
     {
       name: t("trade.p1.name"),
       rows: [
-        [t("trade.location"), "Atsinanana Region, Madagascar"],
+        [t("trade.location"), t("trade.loc.atsinanana")],
         [t("trade.size"), "0.5mm – 2mm"],
         [t("trade.quantity"), "50,000 MT – 1,000,000 MT"],
-        [t("trade.terms"), "FOB Toamasina Port / CIF ASWP"],
-        [t("trade.delivery"), "60–360 days"],
-        [t("trade.payment"), "80% TT SWIFT, 20% against documents"],
+        [t("trade.terms"), t("trade.terms.fobCif")],
+        [t("trade.delivery"), t("trade.delivery.long")],
+        [t("trade.payment"), t("trade.payment.standard")],
       ],
     },
     {
       name: t("trade.p2.name"),
       rows: [
-        [t("trade.location"), "Brickaville, Atsinanana"],
+        [t("trade.location"), t("trade.loc.brickaville")],
         [t("trade.size"), "0.5mm – 2mm"],
         [t("trade.quantity"), "50,000 MT – 1,000,000 MT"],
-        [t("trade.terms"), "FOB Toamasina Port / CIF ASWP"],
-        [t("trade.delivery"), "60–360 days"],
-        [t("trade.payment"), "80% TT SWIFT, 20% against documents"],
+        [t("trade.terms"), t("trade.terms.fobCif")],
+        [t("trade.delivery"), t("trade.delivery.long")],
+        [t("trade.payment"), t("trade.payment.standard")],
       ],
     },
     {
       name: t("trade.p3.name"),
       rows: [
-        [t("trade.location"), "Atsinanana Region, Madagascar"],
+        [t("trade.location"), t("trade.loc.atsinanana")],
         [t("trade.size"), "0.5mm – 2mm"],
         [t("trade.quantity"), "50,000 MT – 1,000,000 MT"],
-        [t("trade.terms"), "FOB Toamasina Port / CIF ASWP"],
-        [t("trade.delivery"), "60–360 days"],
-        [t("trade.payment"), "80% TT SWIFT, 20% against documents"],
+        [t("trade.terms"), t("trade.terms.fobCif")],
+        [t("trade.delivery"), t("trade.delivery.long")],
+        [t("trade.payment"), t("trade.payment.standard")],
       ],
     },
     {
@@ -67,9 +67,9 @@ function MiningPage() {
         [t("trade.quantity"), "1,000 MT – 5,000 MT / month"],
         [t("trade.grade"), "Cr 22% – 35%"],
         [t("trade.price"), "USD 180 / MT FOB"],
-        [t("trade.terms"), "FOB Toamasina Port"],
-        [t("trade.delivery"), "35–360 days"],
-        [t("trade.payment"), "80% TT SWIFT, 20% against documents"],
+        [t("trade.terms"), t("trade.terms.fob")],
+        [t("trade.delivery"), t("trade.delivery.short")],
+        [t("trade.payment"), t("trade.payment.standard")],
       ],
     },
   ];
@@ -96,12 +96,12 @@ function MiningPage() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="max-w-3xl">
-              <span className="text-xs uppercase tracking-luxury text-gold">Synaps Mining</span>
+              <span className="text-xs uppercase tracking-luxury text-gold">{t("mining.eyebrow")}</span>
               <h1 className="mt-6 font-serif text-4xl font-light leading-tight text-ivory sm:text-5xl lg:text-6xl">
-                Exploration, Operations & Global Mineral Export
+                {t("mining.title")}
               </h1>
               <p className="mt-6 text-lg text-ivory/75">
-                Greenfield Mining standards, fair international trade and end-to-end mineral export from Madagascar.
+                {t("mining.subtitle")}
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link to="/contact" className="inline-flex items-center gap-3 rounded-full px-7 py-3.5 text-xs font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5"
@@ -139,7 +139,7 @@ function MiningPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <Reveal>
             <div className="max-w-2xl">
-              <span className="text-xs uppercase tracking-luxury text-gold">Mining Services</span>
+              <span className="text-xs uppercase tracking-luxury text-gold">{t("services.eyebrow")}</span>
               <h2 className="mt-4 font-serif text-3xl font-light text-ivory sm:text-4xl">{t("services.title")}</h2>
             </div>
           </Reveal>
