@@ -42,7 +42,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-xs uppercase tracking-luxury text-gold">Follow</h4>
+          <h4 className="text-xs uppercase tracking-luxury text-gold">{t("footer.follow")}</h4>
           <div className="mt-6 flex gap-3">
             <a href="#" className="grid h-11 w-11 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_25%,transparent)] text-ivory/80 transition-all duration-500 hover:border-gold hover:text-gold hover:-translate-y-1">
               <Linkedin className="h-4 w-4" />
