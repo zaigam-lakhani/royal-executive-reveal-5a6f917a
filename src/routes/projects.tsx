@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal";
 import { useI18n } from "@/i18n/I18nProvider";
 import type { Lang } from "@/i18n/translations";
 import heroImg from "@/assets/mining-hero.jpg";
-import reImg from "@/assets/real-estate-hero.jpg";
+import reImg from "@/assets/trade-export.jpg";
 import mineralsImg from "@/assets/minerals.jpg";
 import charityImg from "@/assets/association-charity.jpg";
 
