@@ -418,20 +418,10 @@ function AssociationPage() {
   const { lang } = useI18n();
   const c = CONTENT[lang];
 
-  const allImages = [
-    { src: imgProtection, alt: c.projects.protection.title },
-    { src: imgPrevention, alt: c.projects.prevention.title },
-    { src: imgTransport, alt: c.projects.transport.title },
-    { src: imgCartable, alt: c.projects.cartable.title },
-    { src: imgSoutien, alt: c.projects.soutien.title },
-    { src: imgCeremonie, alt: c.projects.ceremonie.title },
-    { src: imgCamping, alt: c.projects.camping.title },
-    { src: imgInfra, alt: c.projects.infra.title },
-    { src: imgFormation, alt: c.projects.formation.title },
-    { src: imgHabillement, alt: c.projects.habillement.title },
-    { src: imgRamadan, alt: c.projects.ramadan.title },
-    { src: imgFamilial, alt: c.projects.familial.title },
-  ];
+  const allImages = ALL_DOC_IMAGES.map((src, i) => ({
+    src,
+    alt: `Neurones Madagascar — photo ${i + 1}`,
+  }));
 
   return (
     <div className="relative pt-32 pb-32">
