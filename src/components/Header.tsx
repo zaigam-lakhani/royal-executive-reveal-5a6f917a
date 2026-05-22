@@ -144,7 +144,9 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3">
-          <LanguageSwitcher compact />
+          <div className="hidden sm:block">
+            <LanguageSwitcher compact />
+          </div>
           <Link
             to="/contact"
             className="hidden xl:inline-flex rounded-full px-5 py-2.5 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
