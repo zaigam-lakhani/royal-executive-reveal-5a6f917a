@@ -100,10 +100,11 @@ export function Header() {
                   aria-haspopup="true"
                   aria-expanded={groupOpen}
                 >
-                  {item.label}
+                  <span>{item.label}</span>
                   <ChevronDown
-                    className={`h-3 w-3 transition-transform duration-300 ${groupOpen ? "rotate-180" : ""}`}
+                    className={`h-3.5 w-3.5 shrink-0 transition-transform duration-300 ${groupOpen ? "rotate-180" : ""}`}
                   />
+
                 </button>
                 <div
                   className={`absolute left-1/2 top-full -translate-x-1/2 pt-3 transition-all duration-300 ${
