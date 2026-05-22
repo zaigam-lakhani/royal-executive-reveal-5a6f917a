@@ -82,7 +82,7 @@ export function Header() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 md:flex xl:gap-7">
           {NAV.map((item) =>
             "children" in item ? (
               <div
