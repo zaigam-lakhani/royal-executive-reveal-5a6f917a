@@ -16,6 +16,7 @@ import { Route as ProjectsRouteImport } from './routes/projects'
 import { Route as MiningRouteImport } from './routes/mining'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AssociationRouteImport } from './routes/association'
+import { Route as AgribusinessRouteImport } from './routes/agribusiness'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -54,6 +55,11 @@ const AssociationRoute = AssociationRouteImport.update({
   path: '/association',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AgribusinessRoute = AgribusinessRouteImport.update({
+  id: '/agribusiness',
+  path: '/agribusiness',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -68,6 +74,7 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agribusiness': typeof AgribusinessRoute
   '/association': typeof AssociationRoute
   '/contact': typeof ContactRoute
   '/mining': typeof MiningRoute
@@ -79,6 +86,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agribusiness': typeof AgribusinessRoute
   '/association': typeof AssociationRoute
   '/contact': typeof ContactRoute
   '/mining': typeof MiningRoute
@@ -91,6 +99,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agribusiness': typeof AgribusinessRoute
   '/association': typeof AssociationRoute
   '/contact': typeof ContactRoute
   '/mining': typeof MiningRoute
@@ -104,6 +113,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/agribusiness'
     | '/association'
     | '/contact'
     | '/mining'
@@ -115,6 +125,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/agribusiness'
     | '/association'
     | '/contact'
     | '/mining'
@@ -126,6 +137,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/agribusiness'
     | '/association'
     | '/contact'
     | '/mining'
@@ -138,6 +150,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AgribusinessRoute: typeof AgribusinessRoute
   AssociationRoute: typeof AssociationRoute
   ContactRoute: typeof ContactRoute
   MiningRoute: typeof MiningRoute
@@ -198,6 +211,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AssociationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/agribusiness': {
+      id: '/agribusiness'
+      path: '/agribusiness'
+      fullPath: '/agribusiness'
+      preLoaderRoute: typeof AgribusinessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -218,6 +238,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AgribusinessRoute: AgribusinessRoute,
   AssociationRoute: AssociationRoute,
   ContactRoute: ContactRoute,
   MiningRoute: MiningRoute,
