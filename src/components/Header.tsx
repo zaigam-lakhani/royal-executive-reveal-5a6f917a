@@ -82,7 +82,7 @@ export function Header() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 md:flex xl:gap-7">
           {NAV.map((item) =>
             "children" in item ? (
               <div
@@ -155,7 +155,7 @@ export function Header() {
           <button
             aria-label={t("menu.aria")}
             onClick={() => setOpen((v) => !v)}
-            className="grid h-10 w-10 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_30%,transparent)] text-ivory lg:hidden"
+            className="grid h-10 w-10 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_30%,transparent)] text-ivory md:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -163,7 +163,7 @@ export function Header() {
       </div>
 
       <div
-        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl lg:hidden transition-all duration-500 ${
+        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl md:hidden transition-all duration-500 ${
           open ? "max-h-[800px]" : "max-h-0"
         }`}
       >
