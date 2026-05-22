@@ -196,9 +196,15 @@
 
   /* Reveal on scroll */
   .reveal {
-    opacity: 0;
-    transform: translateY(28px);
+    opacity: 1;
+    transform: translateY(0);
     transition: opacity 0.9s var(--transition-luxury), transform 0.9s var(--transition-luxury);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal:not(.is-visible) {
+      opacity: 0;
+      transform: translateY(28px);
+    }
   }
   .reveal.is-visible {
     opacity: 1;
