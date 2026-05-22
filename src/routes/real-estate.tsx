@@ -24,6 +24,7 @@ import sahazaii7 from "@/assets/sahaza-ii/07.jpg";
 import sahazaii8 from "@/assets/sahaza-ii/08.jpg";
 import sahazaii9 from "@/assets/sahaza-ii/09.jpg";
 import sahazaiiMap from "@/assets/sahaza-ii/10-map.jpg";
+import sahazaii11 from "@/assets/sahaza-ii/11.jpg";
 
 const SAHAZA_II_IMAGES = [
   { src: sahazaii2, alt: "SAHAZA II — Plotted parcels with cleared access roads, Sabotsy Namehana" },
@@ -36,7 +37,9 @@ const SAHAZA_II_IMAGES = [
   { src: sahazaii4, alt: "SAHAZA II — Site perimeter and access path" },
   { src: sahazaii8, alt: "SAHAZA II — Pine-lined plots with secured boundary" },
   { src: sahazaiiMap, alt: "SAHAZA II — Aerial location map, Antsahamaharafoza" },
+  { src: sahazaii11, alt: "SAHAZA II — Panoramic landscape view across the hills of Sabotsy Namehana" },
 ];
+
 
 const SAHAZA_I_IMAGES = [
   { src: sahaza10, alt: "SAHAZA I — Plotted parcels, Ambatolampy Tsimahafotsy" },
