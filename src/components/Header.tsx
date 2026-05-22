@@ -144,7 +144,9 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3">
-          <LanguageSwitcher compact />
+          <div className="hidden sm:block">
+            <LanguageSwitcher compact />
+          </div>
           <Link
             to="/contact"
             className="hidden xl:inline-flex rounded-full px-5 py-2.5 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
@@ -214,9 +216,12 @@ export function Header() {
               </Link>
             ),
           )}
+          <div className="mt-6 sm:hidden flex justify-center">
+            <LanguageSwitcher compact />
+          </div>
           <Link
             to="/contact"
-            className="mt-6 rounded-full px-6 py-3 text-center text-xs font-semibold uppercase tracking-luxury shadow-gold"
+            className="mt-4 rounded-full px-6 py-3 text-center text-xs font-semibold uppercase tracking-luxury shadow-gold"
             style={{ background: "var(--gradient-gold)", color: "var(--charcoal)" }}
           >
             {t("cta.contact")}
