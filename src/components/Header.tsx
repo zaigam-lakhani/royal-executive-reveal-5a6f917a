@@ -216,9 +216,12 @@ export function Header() {
               </Link>
             ),
           )}
+          <div className="mt-6 sm:hidden flex justify-center">
+            <LanguageSwitcher compact />
+          </div>
           <Link
             to="/contact"
-            className="mt-6 rounded-full px-6 py-3 text-center text-xs font-semibold uppercase tracking-luxury shadow-gold"
+            className="mt-4 rounded-full px-6 py-3 text-center text-xs font-semibold uppercase tracking-luxury shadow-gold"
             style={{ background: "var(--gradient-gold)", color: "var(--charcoal)" }}
           >
             {t("cta.contact")}
