@@ -29,8 +29,8 @@ export function Header() {
     { label: t("nav.group"), children: GROUP_CHILDREN },
     { to: "/projects", label: t("nav.projects") },
     { to: "/association", label: t("nav.association") },
-    { to: "/contact", label: t("nav.contact") },
   ];
+
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
