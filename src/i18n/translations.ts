@@ -477,6 +477,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.realEstate": "Synaps 房地产",
     "nav.mining": "Synaps 矿业",
     "nav.agribusiness": "Synaps 农业综合企业",
+    "nav.group": "Synaps 集团",
     "nav.projects": "项目",
     "nav.association": "马达加斯加 Neurones 协会",
     "nav.contact": "联系我们",
