@@ -104,11 +104,6 @@
 @layer base {
   * {
     border-color: var(--color-border);
-    min-width: 0;
-  }
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
   }
   html {
     scroll-behavior: smooth;
@@ -124,19 +119,10 @@
       radial-gradient(ellipse 60% 40% at 100% 100%, oklch(0.62 0.13 70 / 0.05), transparent 60%);
     background-attachment: fixed;
   }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
   h1, h2, h3, h4, .font-display {
     font-family: var(--font-serif);
     letter-spacing: -0.01em;
     font-weight: 500;
-    overflow-wrap: break-word;
-  }
-  p, span, a, li, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-    word-break: break-word;
   }
   ::selection {
     background: var(--gold);

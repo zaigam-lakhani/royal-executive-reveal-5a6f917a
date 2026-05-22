@@ -56,12 +56,12 @@ export function Header() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-4 xl:gap-6 xl:flex">
+        <nav className="hidden items-center gap-7 lg:flex">
           {NAV.map((item) => (
             <Link
               key={item.to}
               to={item.to}
-              className="royal-link text-[11px] uppercase tracking-[0.15em] text-ivory/85 hover:text-gold transition-colors whitespace-nowrap"
+              className="royal-link text-[11px] uppercase tracking-[0.18em] text-ivory/85 hover:text-gold transition-colors whitespace-nowrap"
               activeProps={{ "data-active": "true", className: "text-gold" } as never}
             >
               {item.label}
@@ -73,7 +73,7 @@ export function Header() {
           <LanguageSwitcher compact />
           <Link
             to="/contact"
-            className="hidden md:inline-flex rounded-full px-4 py-2 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
+            className="hidden md:inline-flex rounded-full px-5 py-2.5 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
             style={{ background: "var(--gradient-gold)", color: "var(--charcoal)" }}
           >
             {t("cta.contact")}
@@ -81,7 +81,7 @@ export function Header() {
           <button
             aria-label={t("menu.aria")}
             onClick={() => setOpen((v) => !v)}
-            className="grid h-10 w-10 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_30%,transparent)] text-ivory xl:hidden"
+            className="grid h-10 w-10 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_30%,transparent)] text-ivory lg:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -89,7 +89,7 @@ export function Header() {
       </div>
 
       <div
-        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl xl:hidden transition-all duration-500 ${
+        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl lg:hidden transition-all duration-500 ${
           open ? "max-h-[700px]" : "max-h-0"
         }`}
       >
