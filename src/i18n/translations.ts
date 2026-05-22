@@ -135,6 +135,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.realEstate": "Synaps Immobilier",
     "nav.mining": "Synaps Mining",
     "nav.agribusiness": "Synaps Agribusiness",
+    "nav.group": "Synaps Group",
     "nav.projects": "Projets",
     "nav.association": "Association Neurones Madagascar",
     "nav.contact": "Contact",
