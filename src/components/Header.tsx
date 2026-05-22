@@ -89,7 +89,7 @@ export function Header() {
       </div>
 
       <div
-        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl lg:hidden transition-all duration-500 ${
+        className={`overflow-hidden border-t border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/95 backdrop-blur-xl xl:hidden transition-all duration-500 ${
           open ? "max-h-[700px]" : "max-h-0"
         }`}
       >
