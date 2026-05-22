@@ -249,6 +249,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.realEstate": "سينابس للعقارات",
     "nav.mining": "سينابس للتعدين",
     "nav.agribusiness": "سينابس للأعمال الزراعية",
+    "nav.group": "مجموعة سينابس",
     "nav.projects": "المشاريع",
     "nav.association": "جمعية نيورون مدغشقر",
     "nav.contact": "اتصل بنا",
