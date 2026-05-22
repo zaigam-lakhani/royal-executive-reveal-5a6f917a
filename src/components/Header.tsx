@@ -147,7 +147,7 @@ export function Header() {
           <LanguageSwitcher compact />
           <Link
             to="/contact"
-            className="hidden md:inline-flex rounded-full px-5 py-2.5 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
+            className="hidden xl:inline-flex rounded-full px-5 py-2.5 text-[11px] font-semibold uppercase tracking-luxury shadow-gold transition-all duration-500 hover:-translate-y-0.5 whitespace-nowrap"
             style={{ background: "var(--gradient-gold)", color: "var(--charcoal)" }}
           >
             {t("cta.contact")}
