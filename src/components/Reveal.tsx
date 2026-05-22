@@ -8,11 +8,16 @@ interface RevealProps {
 
 export function Reveal({ children, delay = 0, className = "" }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    if (typeof window === "undefined" || !('IntersectionObserver' in window)) {
+      setVisible(true);
+      return;
+    }
+
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
