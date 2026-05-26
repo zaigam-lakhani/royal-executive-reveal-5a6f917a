@@ -9,7 +9,9 @@ export const Route = createFileRoute("/services")({
       { title: "Mining Services — Synaps Group" },
       { name: "description", content: "Mining consulting, mandate buy & sell, exploration, operations and technical consulting." },
       { property: "og:title", content: "Mining Services — Synaps Group" },
+      { property: "og:description", content: "End-to-end mining services: consulting, mandate buy & sell, exploration, operations and technical advisory." },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/services" }],
   }),
   component: ServicesPage,
 });

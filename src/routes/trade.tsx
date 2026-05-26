@@ -9,8 +9,10 @@ export const Route = createFileRoute("/trade")({
       { title: "Trade & Export — Synaps Group" },
       { name: "description", content: "Sea sands, river sands, red soils and chrome ore exported from Madagascar." },
       { property: "og:title", content: "Trade & Export — Synaps Group" },
+      { property: "og:description", content: "International trade and export of Malagasy sea sands, river sands, red soils and chrome ore to global buyers." },
       { property: "og:image", content: tradeImg },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/trade" }],
   }),
   component: TradePage,
 });

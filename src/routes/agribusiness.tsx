@@ -18,6 +18,7 @@ export const Route = createFileRoute("/agribusiness")({
           "Sustainable agriculture, agro-processing and food security initiatives across Madagascar.",
       },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/agribusiness" }],
   }),
   component: AgribusinessPage,
 });

@@ -55,8 +55,23 @@ export const Route = createFileRoute("/association")({
       { title: "Association Neurones Madagascar — Synaps Group" },
       { name: "description", content: "Non-profit improving access to education and social impact for 5,000+ Malagasy students in rural Madagascar." },
       { property: "og:title", content: "Association Neurones Madagascar" },
-      { property: "og:description", content: "Health, Education and Social projects across Madagascar." },
+      { property: "og:description", content: "Health, education and social impact programs serving more than 5,000 students across rural Madagascar." },
       { property: "og:image", content: imgCeremonie },
+    ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/association" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "NGO",
+          name: "Association Neurones Madagascar",
+          url: "https://royal-executive-reveal.lovable.app/association",
+          description:
+            "Non-profit improving education, health and social welfare for Malagasy students and rural communities.",
+          areaServed: "Madagascar",
+        }),
+      },
     ],
   }),
   component: AssociationPage,

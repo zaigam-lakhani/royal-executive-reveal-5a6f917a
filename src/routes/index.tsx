@@ -8,10 +8,14 @@ import { useI18n } from "@/i18n/I18nProvider";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Synaps Group — Mining & Sustainable Development in Madagascar" },
+      { title: "Synaps Group — Madagascar Mining, Trade & Impact" },
       { name: "description", content: "Mining expertise, international trade and social impact projects from Madagascar." },
-      { property: "og:title", content: "Synaps Group" },
-      { property: "og:description", content: "Mining, trade and impact." },
+      { property: "og:title", content: "Synaps Group — Mining, Trade & Sustainable Impact" },
+      { property: "og:description", content: "Expertise in mining operations, international trade, real estate and social impact projects led from Madagascar." },
+      { property: "og:url", content: "https://royal-executive-reveal.lovable.app/" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://royal-executive-reveal.lovable.app/" },
     ],
   }),
   component: HomePage,
