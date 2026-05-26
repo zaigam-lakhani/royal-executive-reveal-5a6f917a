@@ -61,8 +61,9 @@ export const Route = createFileRoute("/real-estate")({
       { title: "Synaps Real Estate — Premium Properties in Madagascar" },
       { name: "description", content: "Premium residential, hospitality and investment land across Madagascar — Sahaza, Ambohimarina, Mahajanga and Sainte-Marie Island." },
       { property: "og:title", content: "Synaps Real Estate" },
-      { property: "og:description", content: "Luxury investment properties from Madagascar." },
+      { property: "og:description", content: "Premium residential, hospitality and investment land across Madagascar — Sahaza, Ambohimarina, Mahajanga and Sainte-Marie." },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/real-estate" }],
   }),
   component: RealEstatePage,
 });
