@@ -32,19 +32,44 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Synaps Group — Mining & Sustainable Development in Madagascar" },
+      { title: "Synaps Group — Mining & Sustainable Development" },
       {
         name: "description",
         content:
           "Synaps Group delivers mining expertise, international trade, and social impact projects in Madagascar.",
       },
       { name: "author", content: "Synaps Group" },
+      { property: "og:site_name", content: "Synaps Group" },
       { property: "og:title", content: "Synaps Group — Mining & Sustainable Development" },
       { property: "og:description", content: "Mining services, trade & export, and the Neurones Madagascar association." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Synaps Group",
+          url: "https://royal-executive-reveal.lovable.app",
+          description:
+            "Synaps Group delivers mining expertise, international trade, real estate and social impact projects in Madagascar.",
+          areaServed: "Madagascar",
+          sameAs: [],
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Synaps Group",
+          url: "https://royal-executive-reveal.lovable.app",
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
