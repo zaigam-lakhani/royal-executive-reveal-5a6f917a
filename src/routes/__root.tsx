@@ -47,8 +47,8 @@ export const Route = createRootRoute({
       { name: "twitter:title", content: "Synaps Group — Mining & Sustainable Development" },
       { name: "description", content: "Royal Crown Design transforms the Synaps Group website into a premium, luxury investment holding company theme." },
       { name: "twitter:description", content: "Royal Crown Design transforms the Synaps Group website into a premium, luxury investment holding company theme." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e2566a67-d3a0-4e48-b3e0-923472553e49/id-preview-8f660610--36ee4ab1-df9b-4ac1-af77-fd78d6f6dc26.lovable.app-1779796073724.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e2566a67-d3a0-4e48-b3e0-923472553e49/id-preview-8f660610--36ee4ab1-df9b-4ac1-af77-fd78d6f6dc26.lovable.app-1779796073724.png" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/6a03c85f-82b3-469d-bf2f-9f5ef6e4b25e" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/6a03c85f-82b3-469d-bf2f-9f5ef6e4b25e" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
     scripts: [
