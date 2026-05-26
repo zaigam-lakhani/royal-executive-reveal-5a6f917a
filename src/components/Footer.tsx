@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { useI18n } from "@/i18n/I18nProvider";
+import logoLight from "@/assets/logo-light.png";
 
 export function Footer() {
   const { t } = useI18n();
