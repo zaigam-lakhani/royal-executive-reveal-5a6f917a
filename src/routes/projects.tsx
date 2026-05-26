@@ -14,8 +14,10 @@ export const Route = createFileRoute("/projects")({
       { title: "Projects — Synaps Group" },
       { name: "description", content: "Flagship Synaps Group projects across mining, real estate, international trade and humanitarian impact in Madagascar." },
       { property: "og:title", content: "Synaps Group — Projects" },
+      { property: "og:description", content: "Explore Synaps Group flagship initiatives across mining, real estate, international trade and humanitarian impact in Madagascar." },
       { property: "og:image", content: heroImg },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/projects" }],
   }),
   component: ProjectsPage,
 });
