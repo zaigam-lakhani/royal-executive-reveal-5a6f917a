@@ -10,6 +10,27 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact — Synaps Group" },
       { name: "description", content: "Get in touch with Synaps Group for mining inquiries, trade quotes or association partnerships." },
       { property: "og:title", content: "Contact — Synaps Group" },
+      { property: "og:description", content: "Reach Synaps Group in Antananarivo for mining inquiries, trade quotes, real estate or association partnerships." },
+    ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Synaps Group",
+          url: "https://royal-executive-reveal.lovable.app/contact",
+          email: "contact@synapsgroup.com",
+          telephone: "+261 32 00 000 00",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Antananarivo",
+            addressCountry: "MG",
+          },
+          areaServed: "Madagascar",
+        }),
+      },
     ],
   }),
   component: ContactPage,
