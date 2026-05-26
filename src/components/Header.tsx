@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useI18n } from "@/i18n/I18nProvider";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import logoLight from "@/assets/logo-light.png";
+import logoMark from "@/assets/logo-mark.jpeg";
 
 type NavItem =
   | { to: string; label: string }
@@ -66,13 +66,16 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-10">
-        <Link to="/" aria-label={t("brand.name")} className="group flex items-center shrink-0">
+        <Link to="/" aria-label={t("brand.name")} className="group flex items-center gap-3 shrink-0">
           <img
-            src={logoLight}
+            src={logoMark}
             alt={t("brand.name")}
-            className="h-9 sm:h-10 lg:h-11 w-auto object-contain select-none"
+            className="h-9 w-9 sm:h-10 sm:w-10 lg:h-11 lg:w-11 rounded-lg object-contain select-none shadow-gold"
             draggable={false}
           />
+          <span className="hidden sm:inline font-serif text-lg lg:text-xl tracking-wide text-ivory">
+            {t("brand.name")}
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-7 xl:flex">
