@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useI18n } from "@/i18n/I18nProvider";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import logoLight from "@/assets/logo-light.png";
 
 type NavItem =
   | { to: string; label: string }
@@ -65,21 +66,13 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-10">
-        <Link to="/" className="group flex items-center gap-3 shrink-0">
-          <span
-            className="grid h-10 w-10 place-items-center rounded-full border border-[color-mix(in_oklab,var(--gold)_55%,transparent)]"
-            style={{ background: "var(--gradient-gold)" }}
-          >
-            <span className="font-serif text-lg font-bold" style={{ color: "var(--charcoal)" }}>S</span>
-          </span>
-          <div className="leading-none">
-            <div className="font-serif text-lg sm:text-xl font-semibold tracking-wide text-ivory">
-              {t("brand.name")}
-            </div>
-            <div className="mt-1 hidden sm:block text-[10px] uppercase tracking-luxury text-muted-foreground">
-              {t("brand.tagline")}
-            </div>
-          </div>
+        <Link to="/" aria-label={t("brand.name")} className="group flex items-center shrink-0">
+          <img
+            src={logoLight}
+            alt={t("brand.name")}
+            className="h-9 sm:h-10 lg:h-11 w-auto object-contain select-none"
+            draggable={false}
+          />
         </Link>
 
         <nav className="hidden items-center gap-7 xl:flex">
