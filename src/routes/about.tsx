@@ -10,8 +10,10 @@ export const Route = createFileRoute("/about")({
       { title: "About — Synaps Group" },
       { name: "description", content: "Madagascar mining, trade and consulting group with global reach." },
       { property: "og:title", content: "About Synaps Group" },
+      { property: "og:description", content: "Meet Synaps Group: a Madagascar-based mining, trade and consulting partner with global reach and local expertise." },
       { property: "og:image", content: aboutImg },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/about" }],
   }),
   component: AboutPage,
 });
