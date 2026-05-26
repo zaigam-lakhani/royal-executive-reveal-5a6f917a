@@ -11,8 +11,10 @@ export const Route = createFileRoute("/mining")({
       { title: "Synaps Mining — Exploration, Operations & Export" },
       { name: "description", content: "Mining exploration, operations, consulting and international trade of sea sands, river sands, red soils and chrome ore from Madagascar." },
       { property: "og:title", content: "Synaps Mining" },
+      { property: "og:description", content: "Mining exploration, operations and export of Malagasy minerals — sea sands, river sands, red soils and chrome ore." },
       { property: "og:image", content: mineralsImg },
     ],
+    links: [{ rel: "canonical", href: "https://royal-executive-reveal.lovable.app/mining" }],
   }),
   component: MiningPage,
 });
