@@ -355,6 +355,18 @@ const propEN: PropertyT[] = [
     features: ["Moroccan-inspired architecture", "Landscaped gardens", "Suited to luxury residence or boutique hotel", "Quiet residential location near Antananarivo"],
     pricing: ["Contact the project manager for pricing"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — 45 Ha Sisal Plantation, South Madagascar",
+    subtitle: "Large agricultural land with active sisal plantation",
+    location: "Toliary-II, Southern Madagascar",
+    description: "Rare 45-hectare (450,000 sqm) agricultural estate planted with sisal (Agave Sisalana) in the hot, arid south of Madagascar. 100% organic plantation — no artificial fertilizers or pesticides — producing thick, strong natural fibre used in composites for automotive, furniture, construction, geotextiles, ropes, bags, mats, mattresses and specialty papers.",
+    area: "45 hectares (450,000 sqm)",
+    features: ["Active sisal plantation — Agave Sisalana", "100% purely natural (organic)", "Favorable hot & arid climate", "Thick, strong fibre", "Industrial & artisanal applications", "Sustainable agriculture potential"],
+    pricing: ["1,750,000,000 Ar — Total", "€350,000 — Total"],
+    notes: ["Official LOI and buyer CIN/Passport required", "Buyer covers all travel & accommodation from Antananarivo to Toliary"],
+  },
+
 ];
 
 const propFR: PropertyT[] = [
