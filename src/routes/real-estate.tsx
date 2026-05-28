@@ -25,6 +25,26 @@ import sahazaii8 from "@/assets/sahaza-ii/08.jpg";
 import sahazaii9 from "@/assets/sahaza-ii/09.jpg";
 import sahazaiiMap from "@/assets/sahaza-ii/10-map.jpg";
 import sahazaii11 from "@/assets/sahaza-ii/11.jpg";
+import sisal3 from "@/assets/toliary-sisal/003.jpg";
+import sisal4 from "@/assets/toliary-sisal/004.jpg";
+import sisal5 from "@/assets/toliary-sisal/005.jpg";
+import sisal6 from "@/assets/toliary-sisal/006.jpg";
+import sisal7 from "@/assets/toliary-sisal/007.jpg";
+import sisal9 from "@/assets/toliary-sisal/009.jpg";
+import sisal10 from "@/assets/toliary-sisal/010.jpg";
+import sisal11 from "@/assets/toliary-sisal/011.jpg";
+
+const TOLIARY_SISAL_IMAGES = [
+  { src: sisal3, alt: "Toliary-II — Sisal plantation, Agave Sisalana plants" },
+  { src: sisal4, alt: "Toliary-II — 45-hectare sisal field, southern Madagascar" },
+  { src: sisal5, alt: "Toliary-II — Mature sisal plants under arid climate" },
+  { src: sisal6, alt: "Toliary-II — Organic sisal plantation panorama" },
+  { src: sisal7, alt: "Toliary-II — Sisal fibre harvest area" },
+  { src: sisal9, alt: "Toliary-II — Wide view of the 45 Ha sisal estate" },
+  { src: sisal10, alt: "Toliary-II — Sisal rows across the property" },
+  { src: sisal11, alt: "Toliary-II — Sisal plantation horizon, South Madagascar" },
+];
+
 
 const SAHAZA_II_IMAGES = [
   { src: sahazaii2, alt: "SAHAZA II — Plotted parcels with cleared access roads, Sabotsy Namehana" },
