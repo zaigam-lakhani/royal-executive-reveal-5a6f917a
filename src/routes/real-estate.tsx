@@ -149,7 +149,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
