@@ -661,7 +661,19 @@ const propIT: PropertyT[] = [
     features: ["Architettura di ispirazione marocchina", "Giardini paesaggistici", "Adatta a residenza di lusso o hotel boutique", "Quartiere residenziale tranquillo vicino ad Antananarivo"],
     pricing: ["Contatta il project manager per il prezzo"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — Piantagione di Sisal 45 Ha, Sud del Madagascar",
+    subtitle: "Ampio terreno agricolo con piantagione di sisal attiva",
+    location: "Toliary-II, Sud del Madagascar",
+    description: "Rara tenuta agricola di 45 ettari (450.000 m²) coltivata a sisal (Agave Sisalana) nel sud caldo e arido del Madagascar. Piantagione 100% naturale (BIO) — senza fertilizzanti artificiali né pesticidi — produce fibra spessa e resistente utilizzata in materiali compositi per automotive, arredamento, costruzioni, geotessili, corde, sacchi, tappeti, materassi e carte speciali.",
+    area: "45 ettari (450.000 m²)",
+    features: ["Piantagione di sisal attiva — Agave Sisalana", "100% puramente naturale (BIO)", "Clima caldo e arido favorevole", "Fibra spessa e resistente", "Applicazioni industriali e artigianali", "Potenziale agricoltura sostenibile"],
+    pricing: ["1.750.000.000 Ar — Totale", "€350.000 — Totale"],
+    notes: ["Lettera d'intenti ufficiale e CIN/Passaporto richiesti", "L'acquirente sostiene tutte le spese di viaggio e alloggio da Antananarivo a Toliary"],
+  },
 ];
+
 
 const propZH: PropertyT[] = [
   {
