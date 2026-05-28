@@ -355,6 +355,18 @@ const propEN: PropertyT[] = [
     features: ["Moroccan-inspired architecture", "Landscaped gardens", "Suited to luxury residence or boutique hotel", "Quiet residential location near Antananarivo"],
     pricing: ["Contact the project manager for pricing"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — 45 Ha Sisal Plantation, South Madagascar",
+    subtitle: "Large agricultural land with active sisal plantation",
+    location: "Toliary-II, Southern Madagascar",
+    description: "Rare 45-hectare (450,000 sqm) agricultural estate planted with sisal (Agave Sisalana) in the hot, arid south of Madagascar. 100% organic plantation — no artificial fertilizers or pesticides — producing thick, strong natural fibre used in composites for automotive, furniture, construction, geotextiles, ropes, bags, mats, mattresses and specialty papers.",
+    area: "45 hectares (450,000 sqm)",
+    features: ["Active sisal plantation — Agave Sisalana", "100% purely natural (organic)", "Favorable hot & arid climate", "Thick, strong fibre", "Industrial & artisanal applications", "Sustainable agriculture potential"],
+    pricing: ["1,750,000,000 Ar — Total", "€350,000 — Total"],
+    notes: ["Official LOI and buyer CIN/Passport required", "Buyer covers all travel & accommodation from Antananarivo to Toliary"],
+  },
+
 ];
 
 const propFR: PropertyT[] = [
@@ -445,7 +457,19 @@ const propFR: PropertyT[] = [
     features: ["Architecture d'inspiration marocaine", "Jardins paysagers", "Adapté à une résidence de luxe ou un hôtel boutique", "Quartier résidentiel calme près d'Antananarivo"],
     pricing: ["Contactez le chef de projet pour les tarifs"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — Plantation de Sisal de 45 Ha, Sud Madagascar",
+    subtitle: "Grand terrain agricole avec plantation de sisal en activité",
+    location: "Toliary-II, Sud de Madagascar",
+    description: "Rare domaine agricole de 45 hectares (450 000 m²) planté de sisal (Agave Sisalana) dans le sud chaud et aride de Madagascar. Plantation 100% naturelle (BIO) — sans engrais artificiels ni produits phytosanitaires — produisant une fibre épaisse et solide utilisée dans les composites pour l'automobile, l'ameublement, la construction, les géotextiles, les cordages, les sacs, tapis, matelas et papiers spéciaux.",
+    area: "45 hectares (450 000 m²)",
+    features: ["Plantation de sisal active — Agave Sisalana", "100% Purement Naturel (BIO)", "Climat chaud et aride favorable", "Fibre épaisse et solide", "Applications industrielles & artisanales", "Potentiel d'agriculture durable"],
+    pricing: ["1 750 000 000 Ar — Total", "€350 000 — Total"],
+    notes: ["Lettre d'intention officielle et CIN/Passeport requis", "L'acheteur prend en charge tous les frais de voyage et hébergement d'Antananarivo à Toliary"],
+  },
 ];
+
 
 const propAR: PropertyT[] = [
   {
@@ -535,7 +559,19 @@ const propAR: PropertyT[] = [
     features: ["عمارة مستوحاة من الطراز المغربي", "حدائق مُنسّقة", "مناسبة لإقامة فاخرة أو فندق بوتيك", "حي سكني هادئ قرب أنتاناناريفو"],
     pricing: ["تواصل مع مدير المشروع لمعرفة السعر"],
   },
+  {
+    id: "toliary-sisal",
+    title: "توليارا II — مزرعة سيزال 45 هكتار، جنوب مدغشقر",
+    subtitle: "أرض زراعية كبيرة بمزرعة سيزال نشطة",
+    location: "توليارا II، جنوب مدغشقر",
+    description: "ضيعة زراعية نادرة بمساحة 45 هكتاراً (450,000 م²) مزروعة بالسيزال (Agave Sisalana) في جنوب مدغشقر الحار والجاف. مزرعة طبيعية 100% (عضوية) — بدون أسمدة صناعية أو مبيدات — تُنتج ألياف سميكة وقوية تُستخدم في المواد المركبة لصناعة السيارات والأثاث والبناء والجيوتكستيل والحبال والأكياس والسجاد والمراتب والأوراق الخاصة.",
+    area: "45 هكتاراً (450,000 م²)",
+    features: ["مزرعة سيزال نشطة — Agave Sisalana", "طبيعية 100% (عضوية)", "مناخ حار وجاف ملائم", "ألياف سميكة وقوية", "تطبيقات صناعية وحرفية", "إمكانات زراعة مستدامة"],
+    pricing: ["1,750,000,000 أرياري — الإجمالي", "350,000 يورو — الإجمالي"],
+    notes: ["مطلوب خطاب نوايا رسمي وبطاقة هوية/جواز سفر المشتري", "يتحمل المشتري جميع نفقات السفر والإقامة من أنتاناناريفو إلى توليارا"],
+  },
 ];
+
 
 const propIT: PropertyT[] = [
   {
@@ -625,7 +661,19 @@ const propIT: PropertyT[] = [
     features: ["Architettura di ispirazione marocchina", "Giardini paesaggistici", "Adatta a residenza di lusso o hotel boutique", "Quartiere residenziale tranquillo vicino ad Antananarivo"],
     pricing: ["Contatta il project manager per il prezzo"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — Piantagione di Sisal 45 Ha, Sud del Madagascar",
+    subtitle: "Ampio terreno agricolo con piantagione di sisal attiva",
+    location: "Toliary-II, Sud del Madagascar",
+    description: "Rara tenuta agricola di 45 ettari (450.000 m²) coltivata a sisal (Agave Sisalana) nel sud caldo e arido del Madagascar. Piantagione 100% naturale (BIO) — senza fertilizzanti artificiali né pesticidi — produce fibra spessa e resistente utilizzata in materiali compositi per automotive, arredamento, costruzioni, geotessili, corde, sacchi, tappeti, materassi e carte speciali.",
+    area: "45 ettari (450.000 m²)",
+    features: ["Piantagione di sisal attiva — Agave Sisalana", "100% puramente naturale (BIO)", "Clima caldo e arido favorevole", "Fibra spessa e resistente", "Applicazioni industriali e artigianali", "Potenziale agricoltura sostenibile"],
+    pricing: ["1.750.000.000 Ar — Totale", "€350.000 — Totale"],
+    notes: ["Lettera d'intenti ufficiale e CIN/Passaporto richiesti", "L'acquirente sostiene tutte le spese di viaggio e alloggio da Antananarivo a Toliary"],
+  },
 ];
+
 
 const propZH: PropertyT[] = [
   {
@@ -715,7 +763,19 @@ const propZH: PropertyT[] = [
     features: ["摩洛哥风格建筑", "园林景观", "适合豪华住宅或精品酒店", "塔那那利佛附近宁静住宅区"],
     pricing: ["请联系项目经理获取价格"],
   },
+  {
+    id: "toliary-sisal",
+    title: "TOLIARY-II — 45 公顷剑麻种植园,马达加斯加南部",
+    subtitle: "拥有活跃剑麻种植园的大型农业用地",
+    location: "Toliary-II,马达加斯加南部",
+    description: "位于马达加斯加炎热干旱南部的稀有 45 公顷(450,000 平方米)农业庄园,种植剑麻(Agave Sisalana)。100% 纯天然(有机)种植 — 不使用人工肥料或农药 — 产出粗壮坚韧的天然纤维,用于汽车、家具、建筑、土工织物、绳索、麻袋、地毯、床垫及特种纸张(钞票、和纸等)的复合材料。",
+    area: "45 公顷(450,000 平方米)",
+    features: ["活跃剑麻种植园 — Agave Sisalana", "100% 纯天然(有机)", "炎热干旱气候适宜", "粗壮坚韧纤维", "工业与手工艺应用", "可持续农业潜力"],
+    pricing: ["1,750,000,000 阿里亚里 — 总价", "350,000 欧元 — 总价"],
+    notes: ["需提供正式意向书及买方身份证/护照", "买方承担从塔那那利佛到图利亚拉的全部差旅和住宿费用"],
+  },
 ];
+
 
 export const propertiesByLang: Record<Lang, PropertyT[]> = {
   en: propEN,
