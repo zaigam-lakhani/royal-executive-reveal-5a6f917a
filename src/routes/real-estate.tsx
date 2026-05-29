@@ -48,6 +48,16 @@ import anakao7 from "@/assets/anakao/07.jpeg";
 import anakao8 from "@/assets/anakao/08.jpeg";
 import anakao9 from "@/assets/anakao/09.jpeg";
 import anakao10 from "@/assets/anakao/10.jpeg";
+import antetez1 from "@/assets/antetezambaro/01.jpg";
+import antetez2 from "@/assets/antetezambaro/02.jpg";
+import antetez3 from "@/assets/antetezambaro/03.jpg";
+import antetez4 from "@/assets/antetezambaro/04.jpg";
+import antetez5 from "@/assets/antetezambaro/05.jpg";
+import antetez6 from "@/assets/antetezambaro/06.jpg";
+import antetez7 from "@/assets/antetezambaro/07.jpg";
+import antetez8 from "@/assets/antetezambaro/08.jpg";
+import antetez9 from "@/assets/antetezambaro/09.jpg";
+import antetezMap from "@/assets/antetezambaro/10-map.jpg";
 
 const ANAKAO_IMAGES = [
   { src: anakao10, alt: "Anakao — Turquoise lagoon beach, Soalara" },
@@ -59,6 +69,19 @@ const ANAKAO_IMAGES = [
   { src: anakao5, alt: "Anakao — Coastal dune with native vegetation" },
   { src: anakao8, alt: "Anakao — Beach dunes and sandstone" },
   { src: anakao9, alt: "Anakao — Land plot with native trees" },
+];
+
+const ANTETEZAMBARO_IMAGES = [
+  { src: antetez1, alt: "Antetezambaro — 6 Ha land near Tamatave on RN5" },
+  { src: antetez2, alt: "Antetezambaro — Lush green plot, Toamasina II" },
+  { src: antetez3, alt: "Antetezambaro — Strategic land along RN5 to Foulpointe" },
+  { src: antetez4, alt: "Antetezambaro — Ready-to-build secured land" },
+  { src: antetez5, alt: "Antetezambaro — Tropical 6 hectare property" },
+  { src: antetez6, alt: "Antetezambaro — Access path and surroundings" },
+  { src: antetez7, alt: "Antetezambaro — Cleared area on the estate" },
+  { src: antetez8, alt: "Antetezambaro — Natural landscape near Ambodiatafana" },
+  { src: antetez9, alt: "Antetezambaro — Wide view of the 6 Ha plot" },
+  { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
 ];
 
 const TOLIARY_SISAL_IMAGES = [
@@ -185,8 +208,24 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : []}
                     />
+
+                    {p.videos && p.videos.length > 0 && (
+                      <div className="grid gap-4 sm:grid-cols-2">
+                        {p.videos.map((v, vi) => (
+                          <video
+                            key={v}
+                            src={v}
+                            controls
+                            playsInline
+                            preload="metadata"
+                            className="aspect-video w-full rounded-2xl border border-[color-mix(in_oklab,var(--gold)_25%,transparent)] bg-black object-cover shadow-elegant"
+                            aria-label={`${p.title} — video ${vi + 1}`}
+                          />
+                        ))}
+                      </div>
+                    )}
 
                     <div className="grid gap-4 sm:grid-cols-2">
                       <div className="rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
