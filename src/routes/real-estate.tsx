@@ -39,6 +39,27 @@ import manambato3 from "@/assets/manambato-rasoabe/03.jpg";
 import manambato4 from "@/assets/manambato-rasoabe/04.jpg";
 import manambato5 from "@/assets/manambato-rasoabe/05.jpg";
 import manambato6 from "@/assets/manambato-rasoabe/06.jpg";
+import anakao1 from "@/assets/anakao/01.jpeg";
+import anakao2 from "@/assets/anakao/02.jpeg";
+import anakao3 from "@/assets/anakao/03.jpeg";
+import anakao5 from "@/assets/anakao/05.jpeg";
+import anakao6 from "@/assets/anakao/06.jpeg";
+import anakao7 from "@/assets/anakao/07.jpeg";
+import anakao8 from "@/assets/anakao/08.jpeg";
+import anakao9 from "@/assets/anakao/09.jpeg";
+import anakao10 from "@/assets/anakao/10.jpeg";
+
+const ANAKAO_IMAGES = [
+  { src: anakao10, alt: "Anakao — Turquoise lagoon beach, Soalara" },
+  { src: anakao3, alt: "Anakao — White sand and clear turquoise water" },
+  { src: anakao7, alt: "Anakao — Ocean view from the land plot" },
+  { src: anakao6, alt: "Anakao — Wide private beach at low tide" },
+  { src: anakao1, alt: "Anakao — Sea view through coastal vegetation" },
+  { src: anakao2, alt: "Anakao — Panoramic coastal landscape" },
+  { src: anakao5, alt: "Anakao — Coastal dune with native vegetation" },
+  { src: anakao8, alt: "Anakao — Beach dunes and sandstone" },
+  { src: anakao9, alt: "Anakao — Land plot with native trees" },
+];
 
 const TOLIARY_SISAL_IMAGES = [
   { src: sisal3, alt: "Toliary-II — Sisal plantation, Agave Sisalana plants" },
@@ -164,7 +185,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
