@@ -33,6 +33,12 @@ import sisal7 from "@/assets/toliary-sisal/007.jpg";
 import sisal9 from "@/assets/toliary-sisal/009.jpg";
 import sisal10 from "@/assets/toliary-sisal/010.jpg";
 import sisal11 from "@/assets/toliary-sisal/011.jpg";
+import manambato1 from "@/assets/manambato-rasoabe/01.jpg";
+import manambato2 from "@/assets/manambato-rasoabe/02.jpg";
+import manambato3 from "@/assets/manambato-rasoabe/03.jpg";
+import manambato4 from "@/assets/manambato-rasoabe/04.jpg";
+import manambato5 from "@/assets/manambato-rasoabe/05.jpg";
+import manambato6 from "@/assets/manambato-rasoabe/06.jpg";
 
 const TOLIARY_SISAL_IMAGES = [
   { src: sisal3, alt: "Toliary-II — Sisal plantation, Agave Sisalana plants" },
@@ -43,6 +49,15 @@ const TOLIARY_SISAL_IMAGES = [
   { src: sisal9, alt: "Toliary-II — Wide view of the 45 Ha sisal estate" },
   { src: sisal10, alt: "Toliary-II — Sisal rows across the property" },
   { src: sisal11, alt: "Toliary-II — Sisal plantation horizon, South Madagascar" },
+];
+
+const MANAMBATO_IMAGES = [
+  { src: manambato1, alt: "Manambato — Lake Rasoabe waterfront, 6 hectares" },
+  { src: manambato2, alt: "Manambato — 150 m private beach on Lake Rasoabe" },
+  { src: manambato3, alt: "Manambato — Lakeside view of the 6 Ha estate" },
+  { src: manambato4, alt: "Manambato — Natural setting on Lake Rasoabe" },
+  { src: manambato5, alt: "Manambato — Waterfront land panorama" },
+  { src: manambato6, alt: "Manambato — Lake Rasoabe beachfront property" },
 ];
 
 
@@ -149,7 +164,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
