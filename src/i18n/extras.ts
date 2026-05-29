@@ -13,6 +13,7 @@ export interface PropertyT {
   pricing: string[];
   notes?: string[];
   area?: string;
+  videos?: string[];
 }
 
 type Dict = Record<string, string>;
