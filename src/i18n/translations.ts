@@ -121,7 +121,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hq": "Headquarters",
     "contact.address": "Antananarivo, Madagascar",
 
-    "footer.about": "Mining expertise, international trade, and social impact projects from Madagascar to the world.",
+    "footer.about": "Real estate agency — investment, management and development, mining expertise, agribusiness, international trade, and social impact projects from Madagascar to the world.",
     "footer.rights": "All rights reserved.",
   },
 
