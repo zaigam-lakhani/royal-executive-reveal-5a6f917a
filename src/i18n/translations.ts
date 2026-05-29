@@ -47,7 +47,7 @@ export const translations: Record<Lang, Dict> = {
     "home.pillar4.title": "Social Impact",
     "home.pillar4.text": "Funding the Neurones Madagascar association serving 5,000+ students.",
     "home.stats.students": "Students supported",
-    "home.stats.regions": "Rural regions",
+    "home.stats.regions": "regions",
     "home.stats.partners": "International partners",
     "home.stats.tonnes": "MT export capacity",
 
@@ -161,7 +161,7 @@ export const translations: Record<Lang, Dict> = {
     "home.pillar4.title": "Impact Social",
     "home.pillar4.text": "Financement de l'association Neurones Madagascar au service de 5000+ élèves.",
     "home.stats.students": "Élèves soutenus",
-    "home.stats.regions": "Régions rurales",
+    "home.stats.regions": "régions",
     "home.stats.partners": "Partenaires internationaux",
     "home.stats.tonnes": "MT capacité d'export",
 
@@ -275,7 +275,7 @@ export const translations: Record<Lang, Dict> = {
     "home.pillar4.title": "أثر اجتماعي",
     "home.pillar4.text": "تمويل جمعية نيرونز مدغشقر التي تخدم أكثر من 5000 طالب.",
     "home.stats.students": "طالب مدعوم",
-    "home.stats.regions": "منطقة ريفية",
+    "home.stats.regions": "المناطق",
     "home.stats.partners": "شركاء دوليون",
     "home.stats.tonnes": "طن طاقة تصدير",
 
@@ -389,7 +389,7 @@ export const translations: Record<Lang, Dict> = {
     "home.pillar4.title": "Impatto Sociale",
     "home.pillar4.text": "Finanziamento dell'associazione Neurones Madagascar a servizio di oltre 5.000 studenti.",
     "home.stats.students": "Studenti supportati",
-    "home.stats.regions": "Regioni rurali",
+    "home.stats.regions": "regioni",
     "home.stats.partners": "Partner internazionali",
     "home.stats.tonnes": "MT capacità di export",
 
@@ -503,7 +503,7 @@ export const translations: Record<Lang, Dict> = {
     "home.pillar4.title": "社会影响",
     "home.pillar4.text": "资助 Neurones Madagascar 协会,惠及 5000 多名学生。",
     "home.stats.students": "受助学生",
-    "home.stats.regions": "农村地区",
+    "home.stats.regions": "区域",
     "home.stats.partners": "国际合作伙伴",
     "home.stats.tonnes": "公吨出口能力",
 
