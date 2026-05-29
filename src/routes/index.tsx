@@ -34,8 +34,8 @@ function HomePage() {
   const zh = (s: string) => lang === "zh" ? s.replace(/,/g, "").replace(/[0-9]/g, d => "零一二三四五六七八九"[+d]).replace(/\+/g, "余") : s;
   const STATS = [
     { v: zh("5,000+"), l: t("home.stats.students") },
-    { v: zh("24"), l: t("home.stats.regions") },
     { v: zh("6"), l: t("home.stats.provinces") },
+    { v: zh("24"), l: t("home.stats.regions") },
     { v: zh("20+"), l: t("home.stats.partners") },
     { v: lang === "zh" ? "百万吨" : "1M", l: t("home.stats.tonnes") },
   ];
@@ -99,12 +99,12 @@ function HomePage() {
         <img src={mineralsImg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" width={1600} height={1000} />
         <div className="absolute inset-0 bg-background/80" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-6 lg:grid-cols-5 lg:gap-8">
             {STATS.map((s, i) => (
               <Reveal key={s.l} delay={i * 100}>
-                <div className="text-center lg:text-start">
-                  <div className="font-serif text-5xl text-gradient-gold sm:text-6xl">{s.v}</div>
-                  <div className="mt-3 text-xs uppercase tracking-luxury text-ivory/70">{s.l}</div>
+                <div className="text-center">
+                  <div className="font-serif text-4xl text-gradient-gold sm:text-5xl">{s.v}</div>
+                  <div className="mt-2 text-xs uppercase tracking-luxury text-ivory/70">{s.l}</div>
                 </div>
               </Reveal>
             ))}
