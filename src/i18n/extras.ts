@@ -377,6 +377,37 @@ const propEN: PropertyT[] = [
     pricing: ["50,000 Ar/sqm (€10/sqm)", "Total: 3,000,000,000 Ar — €600,000 (net)"],
     notes: ["Transfer of title included in the price"],
   },
+  {
+    id: "madiorano",
+    title: "MADIORANO — Beachfront Land, Tuléar II",
+    subtitle: "14 Ha beachfront estate with 175 m of ocean frontage",
+    location: "Madiorano, Tuléar II — 45 minutes from Tuléar city",
+    description: "Exceptional 14-hectare beachfront estate in Madiorano with 175 m of direct ocean frontage. Adjacent to the paved RN9 highway for easy access. Titled and surveyed land with a single signatory — ready for a turnkey resort, eco-lodge or premium seaside development.",
+    area: "14 hectares · 175 m beach frontage",
+    features: ["175 m of direct ocean frontage", "Adjacent to RN9 paved highway", "Titled and surveyed — one signatory", "Not subdividable — sold as a whole", "45 minutes from Tuléar city"],
+    pricing: ["€515,000 — Total (net)"],
+  },
+  {
+    id: "anakao-soalara",
+    title: "ANAKAO — Land with Beach Access, Soalara, Tuléar II",
+    subtitle: "Flexible plots near Anakao's turquoise lagoons",
+    location: "Anakao, Soalara, Tuléar II — 1 hour by boat or 45 minutes by 4x4",
+    description: "Secured land with direct beach access in the Anakao / Soalara area, on the south-west coast of Madagascar. Titled and surveyed with a single signatory. Choose between a 5-hectare plot or smaller 3 ha / 2 ha plots — ideal for a beach resort, private villas or eco-tourism investment.",
+    area: "5 ha · 3 ha · 2 ha plots available",
+    features: ["Direct beach access", "Titled and surveyed — one signatory", "Anakao turquoise lagoon area", "Suited for resort, villas or eco-tourism", "Access by 4x4 or boat"],
+    pricing: ["5-hectare plot: 45,000 Ar/sqm", "3-hectare or 2-hectare plots: 35,000 Ar/sqm"],
+  },
+  {
+    id: "fiherenamasay",
+    title: "FIHERENAMASAY — Beachfront Land, Tuléar II",
+    subtitle: "Two adjoining beachfront plots — 6 Ha & 7 Ha",
+    location: "Fiherenamasay, Tuléar II — 1 h 50 by 4x4 from Tuléar",
+    description: "Two adjoining beachfront plots of 6 and 7 hectares on the south-west coast of Madagascar. Titled and surveyed — 100% secured land. Plots are not individually subdividable but can be sold together as a single 13-hectare development.",
+    area: "6 ha + 7 ha (13 ha total)",
+    features: ["Direct ocean frontage", "Two plots — sold together possible", "Titled and surveyed — 100% secured", "Accessible by 4x4, sandy road", "1 h 50 from Tuléar"],
+    pricing: ["29,500 Ar/sqm"],
+    notes: ["Plots are not individually subdividable"],
+  },
 ];
 
 const propFR: PropertyT[] = [
