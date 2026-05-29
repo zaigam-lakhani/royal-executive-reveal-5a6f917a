@@ -409,6 +409,17 @@ const propEN: PropertyT[] = [
     pricing: ["29,500 Ar/sqm"],
     notes: ["Plots are not individually subdividable"],
   },
+  {
+    id: "antetezambaro",
+    title: "ANTETEZAMBARO — Beautiful 6 Ha Land, 12 km from Tamatave",
+    subtitle: "First Plan · 100% Secured · Ready to Build",
+    location: "Antetezambaro, Toamasina II — 15 minutes from Tamatave on RN5 toward Foulpointe",
+    description: "Exceptional 6-hectare (60,000 sqm) plot of land just 12 km from the Tamatave-Miami border, along the National Route 5 toward Foulpointe. Concession, First Plan, 100% secured and ready to build. Strategic location for a central collection and purchasing hub for fruits, spices, lychees, coffee, vanilla, cloves, black pepper and minerals — RN5 is a major highway connecting Maroantsetra, Mananara Avaratra, Soanierana Ivongo, Fenoarivo Atsinanana, Mahavelona and Toamasina. Lively area renowned for its local craft stalls and dynamic rural community, close to the Ambodiatafana Riverbank — ideal for ecotourism and hospitality.",
+    area: "6 hectares (60,000 sqm)",
+    features: ["12 km from Tamatave — 15 min by car on RN5", "Concession · First Plan · 100% secured land", "Ready to build", "Strategic hub for fruits, spices, vanilla, cloves & minerals", "Close to Ambodiatafana Riverbank — eco-tourism potential", "Lively area with local craft stalls"],
+    pricing: ["22,500 Ar/sqm — Road to Foulpointe, 12 km", "Total: 1,350,000,000 Ar (€270,000)"],
+    videos: ["/videos/antetezambaro-1.mp4", "/videos/antetezambaro-2.mp4"],
+  },
 ];
 
 const propFR: PropertyT[] = [
