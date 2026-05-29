@@ -235,7 +235,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hq": "Siège Social",
     "contact.address": "Antananarivo, Madagascar",
 
-    "footer.about": "Expertise minière, commerce international et projets à impact social, de Madagascar vers le monde.",
+    "footer.about": "Agence immobilière — investissement, gestion et développement, expertise minière, agro-industrie, commerce international et projets à impact social, de Madagascar vers le monde.",
     "footer.rights": "Tous droits réservés.",
   },
 
@@ -349,7 +349,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hq": "المقر الرئيسي",
     "contact.address": "أنتاناناريفو، مدغشقر",
 
-    "footer.about": "خبرة تعدينية وتجارة دولية ومشاريع ذات أثر اجتماعي، من مدغشقر إلى العالم.",
+    "footer.about": "وكالة عقارية — استثمار وإدارة وتطوير، خبرة تعدينية، أعمال زراعية، تجارة دولية ومشاريع ذات أثر اجتماعي، من مدغشقر إلى العالم.",
     "footer.rights": "جميع الحقوق محفوظة.",
   },
 
@@ -463,7 +463,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hq": "Sede Centrale",
     "contact.address": "Antananarivo, Madagascar",
 
-    "footer.about": "Competenze minerarie, commercio internazionale e progetti a impatto sociale, dal Madagascar al mondo.",
+    "footer.about": "Agenzia immobiliare — investimento, gestione e sviluppo, competenze minerarie, agroindustria, commercio internazionale e progetti a impatto sociale, dal Madagascar al mondo.",
     "footer.rights": "Tutti i diritti riservati.",
   },
 
@@ -577,7 +577,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hq": "总部",
     "contact.address": "塔那那利佛,马达加斯加",
 
-    "footer.about": "采矿专业、国际贸易和社会公益项目,从马达加斯加走向世界。",
+    "footer.about": "房地产代理——投资、管理与开发,采矿专业,农业综合,国际贸易及社会公益项目,从马达加斯加走向世界。",
     "footer.rights": "版权所有。",
   },
 };
