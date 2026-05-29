@@ -34,7 +34,7 @@ function HomePage() {
   const zh = (s: string) => lang === "zh" ? s.replace(/,/g, "").replace(/[0-9]/g, d => "零一二三四五六七八九"[+d]).replace(/\+/g, "余") : s;
   const STATS = [
     { v: zh("5,000+"), l: t("home.stats.students") },
-    { v: zh("12+"), l: t("home.stats.regions") },
+    { v: zh("24"), l: t("home.stats.regions") },
     { v: zh("20+"), l: t("home.stats.partners") },
     { v: lang === "zh" ? "百万吨" : "1M", l: t("home.stats.tonnes") },
   ];
