@@ -35,6 +35,7 @@ function HomePage() {
   const STATS = [
     { v: zh("5,000+"), l: t("home.stats.students") },
     { v: zh("24"), l: t("home.stats.regions") },
+    { v: zh("6"), l: t("home.stats.provinces") },
     { v: zh("20+"), l: t("home.stats.partners") },
     { v: lang === "zh" ? "百万吨" : "1M", l: t("home.stats.tonnes") },
   ];
@@ -98,7 +99,7 @@ function HomePage() {
         <img src={mineralsImg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" width={1600} height={1000} />
         <div className="absolute inset-0 bg-background/80" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-5">
             {STATS.map((s, i) => (
               <Reveal key={s.l} delay={i * 100}>
                 <div className="text-center lg:text-start">
