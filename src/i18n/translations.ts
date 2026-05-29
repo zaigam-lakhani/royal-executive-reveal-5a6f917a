@@ -50,6 +50,7 @@ export const translations: Record<Lang, Dict> = {
     "home.stats.regions": "regions",
     "home.stats.partners": "International partners",
     "home.stats.tonnes": "MT export capacity",
+    "home.stats.provinces": "Provinces",
 
     "about.eyebrow": "About Us",
     "about.title": "A Madagascar group with global reach.",
@@ -164,6 +165,7 @@ export const translations: Record<Lang, Dict> = {
     "home.stats.regions": "régions",
     "home.stats.partners": "Partenaires internationaux",
     "home.stats.tonnes": "MT capacité d'export",
+    "home.stats.provinces": "Provinces",
 
     "about.eyebrow": "À Propos",
     "about.title": "Un groupe malgache à portée mondiale.",
@@ -278,6 +280,7 @@ export const translations: Record<Lang, Dict> = {
     "home.stats.regions": "المناطق",
     "home.stats.partners": "شركاء دوليون",
     "home.stats.tonnes": "طن طاقة تصدير",
+    "home.stats.provinces": "المقاطعات",
 
     "about.eyebrow": "من نحن",
     "about.title": "مجموعة مدغشقرية ذات حضور عالمي.",
@@ -392,6 +395,7 @@ export const translations: Record<Lang, Dict> = {
     "home.stats.regions": "regioni",
     "home.stats.partners": "Partner internazionali",
     "home.stats.tonnes": "MT capacità di export",
+    "home.stats.provinces": "Province",
 
     "about.eyebrow": "Chi Siamo",
     "about.title": "Un gruppo del Madagascar con portata globale.",
@@ -506,6 +510,7 @@ export const translations: Record<Lang, Dict> = {
     "home.stats.regions": "区域",
     "home.stats.partners": "国际合作伙伴",
     "home.stats.tonnes": "公吨出口能力",
+    "home.stats.provinces": "省份",
 
     "about.eyebrow": "关于我们",
     "about.title": "立足马达加斯加,放眼全球。",
