@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { useI18n } from "@/i18n/I18nProvider";
-import logoLight from "@/assets/logo-light.png";
+import logoMark from "@/assets/logo-mark.jpeg";
 
 export function Footer() {
   const { t } = useI18n();
@@ -27,12 +27,12 @@ export function Footer() {
         <div className="lg:col-span-4">
           <Link to="/" aria-label={t("brand.name")} className="inline-flex items-center gap-3">
             <img
-              src={logoLight}
+              src={logoMark}
               alt={t("brand.name")}
-              className="h-12 w-auto select-none object-contain md:h-14"
+              className="h-12 w-12 rounded-lg object-contain select-none shadow-gold"
               draggable={false}
             />
-            <span className="sr-only">{t("brand.name")}</span>
+            <span className="font-serif text-xl tracking-wide text-ivory">{t("brand.name")}</span>
           </Link>
           <p className="mx-auto mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground md:mx-0">
             {t("footer.about")}
