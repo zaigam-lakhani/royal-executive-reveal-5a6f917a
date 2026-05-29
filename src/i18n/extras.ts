@@ -563,6 +563,17 @@ const propFR: PropertyT[] = [
     pricing: ["29 500 Ar/m²"],
     notes: ["Lots non lotissables individuellement"],
   },
+  {
+    id: "antetezambaro",
+    title: "ANTETEZAMBARO — Magnifique terrain de 6 Ha, à 12 km de Tamatave",
+    subtitle: "1er Plan · Sécurisé à 100% · Prêt à bâtir",
+    location: "Antetezambaro, Toamasina II — à 15 minutes de Tamatave sur la RN5 vers Foulpointe",
+    description: "Magnifique terrain de 6 hectares (60 000 m²) à seulement 12 km de la frontière Tamatave-Miami, le long de la Route Nationale 5 en direction de Foulpointe. Concession, 1er Plan, terrain sécurisé à 100% et prêt à bâtir. Emplacement stratégique pour un « pôle central de collecte et d'achat de fruits, épices, litchis, café, vanille, girofle, poivre noir et minerais » — la RN5 est une grande route reliant Maroantsetra, Mananara Avaratra, Soanierana Ivongo, Fenoarivo Atsinanana, Mahavelona et Toamasina. Zone animée connue pour ses stands d'artisanat local, proche de la Rive de l'Ambodiatafana — idéale pour l'écotourisme et l'hôtellerie.",
+    area: "6 hectares (60 000 m²)",
+    features: ["À 12 km de Tamatave — 15 min en voiture sur la RN5", "Concession · 1er Plan · terrain sécurisé à 100%", "Prêt à bâtir", "Pôle stratégique pour fruits, épices, vanille, girofle et minerais", "Proche de la Rive de l'Ambodiatafana — potentiel écotouristique", "Zone animée avec stands d'artisanat local"],
+    pricing: ["22 500 Ar/m² — Route de Foulpointe, 12 km", "Total : 1 350 000 000 Ar (270 000 €)"],
+    videos: ["/videos/antetezambaro-1.mp4", "/videos/antetezambaro-2.mp4"],
+  },
 ];
 
 
@@ -706,6 +717,17 @@ const propAR: PropertyT[] = [
     features: ["واجهة بحرية مباشرة", "قطعتان — إمكانية البيع معاً", "مسجّلة ومسوّحة — مؤمّنة 100%", "وصول بسيارة 4x4، طريق رملي", "ساعة و50 دقيقة من توليارا"],
     pricing: ["29,500 أرياري/م²"],
     notes: ["القطع غير قابلة للتقسيم منفردة"],
+  },
+  {
+    id: "antetezambaro",
+    title: "أنتيتيزامبارو — أرض رائعة 6 هكتارات، على بُعد 12 كم من تاماتاف",
+    subtitle: "المخطط الأول · مؤمّنة 100% · جاهزة للبناء",
+    location: "أنتيتيزامبارو، توماسينا II — على بُعد 15 دقيقة من تاماتاف عبر الطريق الوطني RN5 باتجاه فولبوانت",
+    description: "أرض استثنائية بمساحة 6 هكتارات (60,000 م²) على بُعد 12 كم فقط من حدود تاماتاف-ميامي، على طول الطريق الوطني 5 باتجاه فولبوانت. امتياز، المخطط الأول، أرض مؤمّنة 100% وجاهزة للبناء. موقع استراتيجي لـ «مركز تجميع وشراء مركزي للفواكه والتوابل والليتشي والقهوة والفانيليا والقرنفل والفلفل الأسود والمعادن» — الطريق RN5 طريق رئيسي يربط مدن ماروانتسيترا، مانانارا أفاراترا، سوانييرانا إيفونغو، فينوأريفو أتسينانانا، ماهافيلونا وتوماسينا. منطقة حيوية تشتهر بأكشاك الحرف اليدوية المحلية، قرب ضفة أمبودياتافانا — مثالية للسياحة البيئية والضيافة.",
+    area: "6 هكتارات (60,000 م²)",
+    features: ["12 كم من تاماتاف — 15 دقيقة بالسيارة عبر RN5", "امتياز · المخطط الأول · أرض مؤمّنة 100%", "جاهزة للبناء", "مركز استراتيجي للفواكه والتوابل والفانيليا والقرنفل والمعادن", "قرب ضفة أمبودياتافانا — إمكانات سياحة بيئية", "منطقة حيوية بأكشاك حرفية محلية"],
+    pricing: ["22,500 أرياري/م² — طريق فولبوانت، 12 كم", "الإجمالي: 1,350,000,000 أرياري (270,000 يورو)"],
+    videos: ["/videos/antetezambaro-1.mp4", "/videos/antetezambaro-2.mp4"],
   },
 ];
 
@@ -851,6 +873,17 @@ const propIT: PropertyT[] = [
     pricing: ["29.500 Ar/m²"],
     notes: ["Lotti non lottizzabili singolarmente"],
   },
+  {
+    id: "antetezambaro",
+    title: "ANTETEZAMBARO — Splendido terreno di 6 Ha, a 12 km da Tamatave",
+    subtitle: "1° Piano · Sicuro al 100% · Pronto per costruire",
+    location: "Antetezambaro, Toamasina II — a 15 minuti da Tamatave sulla RN5 verso Foulpointe",
+    description: "Splendido terreno di 6 ettari (60.000 m²) a soli 12 km dal confine Tamatave-Miami, lungo la Strada Nazionale 5 in direzione Foulpointe. Concessione, 1° Piano, terreno sicuro al 100% e pronto per la costruzione. Posizione strategica per un «polo centrale di raccolta e acquisto di frutta, spezie, litchi, caffè, vaniglia, chiodi di garofano, pepe nero e minerali» — la RN5 è un'arteria principale che collega Maroantsetra, Mananara Avaratra, Soanierana Ivongo, Fenoarivo Atsinanana, Mahavelona e Toamasina. Zona vivace nota per le bancarelle di artigianato locale, vicino alla Riva dell'Ambodiatafana — ideale per ecoturismo e ospitalità.",
+    area: "6 ettari (60.000 m²)",
+    features: ["12 km da Tamatave — 15 min in auto sulla RN5", "Concessione · 1° Piano · terreno sicuro al 100%", "Pronto per la costruzione", "Polo strategico per frutta, spezie, vaniglia, chiodi di garofano e minerali", "Vicino alla Riva dell'Ambodiatafana — potenziale ecoturistico", "Zona vivace con bancarelle artigianali"],
+    pricing: ["22.500 Ar/m² — Strada per Foulpointe, 12 km", "Totale: 1.350.000.000 Ar (270.000 €)"],
+    videos: ["/videos/antetezambaro-1.mp4", "/videos/antetezambaro-2.mp4"],
+  },
 ];
 
 
@@ -994,6 +1027,17 @@ const propZH: PropertyT[] = [
     features: ["直临海岸", "两块地 — 可一并出售", "已确权和测绘 — 100% 安全", "4x4 可达,沙路", "距图利亚拉 1 小时 50 分钟"],
     pricing: ["29,500 阿里亚里/平方米"],
     notes: ["地块不可单独分割"],
+  },
+  {
+    id: "antetezambaro",
+    title: "ANTETEZAMBARO — 6 公顷优质土地,距塔马塔夫 12 公里",
+    subtitle: "首期规划 · 100% 安全 · 可立即建造",
+    location: "Antetezambaro,Toamasina II — 距塔马塔夫 15 分钟,沿 RN5 国道前往 Foulpointe",
+    description: "距 Tamatave-Miami 边界仅 12 公里的稀有 6 公顷(60,000 平方米)地块,沿 RN5 国道前往 Foulpointe。特许权,首期规划,100% 安全用地,可立即建造。是「水果、香料、荔枝、咖啡、香草、丁香、黑胡椒和矿产中央集散及采购枢纽」的战略位置 — RN5 是连接 Maroantsetra、Mananara Avaratra、Soanierana Ivongo、Fenoarivo Atsinanana、Mahavelona 和 Toamasina 的主要干道。当地以手工艺集市闻名,邻近 Ambodiatafana 河岸 — 适合生态旅游与酒店开发。",
+    area: "6 公顷(60,000 平方米)",
+    features: ["距塔马塔夫 12 公里 — 沿 RN5 车程 15 分钟", "特许权 · 首期规划 · 100% 安全用地", "可立即建造", "水果、香料、香草、丁香与矿产战略枢纽", "邻近 Ambodiatafana 河岸 — 生态旅游潜力", "繁华地区,有当地手工艺集市"],
+    pricing: ["22,500 阿里亚里/平方米 — Foulpointe 路,12 公里", "总价:1,350,000,000 阿里亚里(270,000 欧元)"],
+    videos: ["/videos/antetezambaro-1.mp4", "/videos/antetezambaro-2.mp4"],
   },
 ];
 
