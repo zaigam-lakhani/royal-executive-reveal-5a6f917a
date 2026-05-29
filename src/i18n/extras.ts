@@ -366,7 +366,17 @@ const propEN: PropertyT[] = [
     pricing: ["1,750,000,000 Ar — Total", "€350,000 — Total"],
     notes: ["Official LOI and buyer CIN/Passport required", "Buyer covers all travel & accommodation from Antananarivo to Toliary"],
   },
-
+  {
+    id: "manambato-rasoabe",
+    title: "MANAMBATO — Lake Rasoabe Waterfront, 6 Ha",
+    subtitle: "Waterfront land · 150 m of Lake Rasoabe beach",
+    location: "Manambato, Eastern Madagascar",
+    description: "Exceptional 6-hectare (60,000 sqm) waterfront estate on Lake Rasoabe with 150 m of private beach frontage. Fully secured land with 100% clean title — ideal for an eco-resort, lakeside hotel or premium private residence. Reference: AP-TMM-MBTO 6HA.",
+    area: "6 hectares (60,000 sqm) · 150 m beach front",
+    features: ["Direct lake waterfront", "150 m of private beach on Lake Rasoabe", "100% secured land with clean title", "Ideal for eco-resort, hotel or private estate", "Quiet natural setting in Manambato"],
+    pricing: ["50,000 Ar/sqm (€10/sqm)", "Total: 3,000,000,000 Ar — €600,000 (net)"],
+    notes: ["Transfer of title included in the price"],
+  },
 ];
 
 const propFR: PropertyT[] = [
@@ -467,6 +477,17 @@ const propFR: PropertyT[] = [
     features: ["Plantation de sisal active — Agave Sisalana", "100% Purement Naturel (BIO)", "Climat chaud et aride favorable", "Fibre épaisse et solide", "Applications industrielles & artisanales", "Potentiel d'agriculture durable"],
     pricing: ["1 750 000 000 Ar — Total", "€350 000 — Total"],
     notes: ["Lettre d'intention officielle et CIN/Passeport requis", "L'acheteur prend en charge tous les frais de voyage et hébergement d'Antananarivo à Toliary"],
+  },
+  {
+    id: "manambato-rasoabe",
+    title: "MANAMBATO — Pied dans l'eau Lac Rasoabe, 6 Ha",
+    subtitle: "Terrain en bord de lac · 150 m de plage sur le Lac Rasoabe",
+    location: "Manambato, Est de Madagascar",
+    description: "Domaine exceptionnel de 6 hectares (60 000 m²) en bordure du Lac Rasoabe avec 150 m de plage privative. Terrain entièrement sécurisé, titre 100% propre — idéal pour un éco-resort, un hôtel au bord du lac ou une résidence privée d'exception. Référence : AP-TMM-MBTO 6HA.",
+    area: "6 hectares (60 000 m²) · 150 m de plage",
+    features: ["Bord de lac direct", "150 m de plage privée sur le Lac Rasoabe", "Terrain sécurisé à 100% avec titre propre", "Idéal pour éco-resort, hôtel ou domaine privé", "Cadre naturel paisible à Manambato"],
+    pricing: ["50 000 Ar/m² (10 €/m²)", "Total : 3 000 000 000 Ar — 600 000 € (net)"],
+    notes: ["Mutation (transfert de titre) incluse dans le prix"],
   },
 ];
 
@@ -570,6 +591,17 @@ const propAR: PropertyT[] = [
     pricing: ["1,750,000,000 أرياري — الإجمالي", "350,000 يورو — الإجمالي"],
     notes: ["مطلوب خطاب نوايا رسمي وبطاقة هوية/جواز سفر المشتري", "يتحمل المشتري جميع نفقات السفر والإقامة من أنتاناناريفو إلى توليارا"],
   },
+  {
+    id: "manambato-rasoabe",
+    title: "مانامباتو — أرض على بحيرة راسوابي، 6 هكتارات",
+    subtitle: "أرض على ضفة البحيرة · 150 م من شاطئ بحيرة راسوابي",
+    location: "مانامباتو، شرق مدغشقر",
+    description: "ضيعة استثنائية بمساحة 6 هكتارات (60,000 م²) على ضفاف بحيرة راسوابي مع 150 م من الشاطئ الخاص. أرض مؤمّنة بالكامل وسند ملكية نظيف 100% — مثالية لمنتجع بيئي أو فندق على البحيرة أو إقامة خاصة فاخرة. المرجع: AP-TMM-MBTO 6HA.",
+    area: "6 هكتارات (60,000 م²) · 150 م شاطئ",
+    features: ["إطلالة مباشرة على البحيرة", "150 م من الشاطئ الخاص على بحيرة راسوابي", "أرض مؤمّنة 100% بسند ملكية نظيف", "مثالية لمنتجع بيئي أو فندق أو إقامة خاصة", "محيط طبيعي هادئ في مانامباتو"],
+    pricing: ["50,000 أرياري/م² (10 يورو/م²)", "الإجمالي: 3,000,000,000 أرياري — 600,000 يورو (صافي)"],
+    notes: ["نقل الملكية مشمول في السعر"],
+  },
 ];
 
 
@@ -672,6 +704,17 @@ const propIT: PropertyT[] = [
     pricing: ["1.750.000.000 Ar — Totale", "€350.000 — Totale"],
     notes: ["Lettera d'intenti ufficiale e CIN/Passaporto richiesti", "L'acquirente sostiene tutte le spese di viaggio e alloggio da Antananarivo a Toliary"],
   },
+  {
+    id: "manambato-rasoabe",
+    title: "MANAMBATO — Fronte lago Rasoabe, 6 Ha",
+    subtitle: "Terreno fronte lago · 150 m di spiaggia sul Lago Rasoabe",
+    location: "Manambato, Madagascar orientale",
+    description: "Eccezionale tenuta di 6 ettari (60.000 m²) fronte lago sul Lago Rasoabe con 150 m di spiaggia privata. Terreno completamente sicuro con titolo 100% pulito — ideale per eco-resort, hotel sul lago o residenza privata di pregio. Riferimento: AP-TMM-MBTO 6HA.",
+    area: "6 ettari (60.000 m²) · 150 m di spiaggia",
+    features: ["Fronte lago diretto", "150 m di spiaggia privata sul Lago Rasoabe", "Terreno sicuro al 100% con titolo pulito", "Ideale per eco-resort, hotel o tenuta privata", "Ambiente naturale tranquillo a Manambato"],
+    pricing: ["50.000 Ar/m² (10 €/m²)", "Totale: 3.000.000.000 Ar — 600.000 € (netto)"],
+    notes: ["Trasferimento di proprietà incluso nel prezzo"],
+  },
 ];
 
 
@@ -773,6 +816,17 @@ const propZH: PropertyT[] = [
     features: ["活跃剑麻种植园 — Agave Sisalana", "100% 纯天然(有机)", "炎热干旱气候适宜", "粗壮坚韧纤维", "工业与手工艺应用", "可持续农业潜力"],
     pricing: ["1,750,000,000 阿里亚里 — 总价", "350,000 欧元 — 总价"],
     notes: ["需提供正式意向书及买方身份证/护照", "买方承担从塔那那利佛到图利亚拉的全部差旅和住宿费用"],
+  },
+  {
+    id: "manambato-rasoabe",
+    title: "MANAMBATO — 拉索阿贝湖滨地块,6 公顷",
+    subtitle: "湖滨用地 · 150 米拉索阿贝湖私人海滩",
+    location: "Manambato,马达加斯加东部",
+    description: "拉索阿贝湖畔的稀有 6 公顷(60,000 平方米)湖滨庄园,拥有 150 米私人沙滩。土地完全安全,产权 100% 清晰 — 适合生态度假村、湖畔酒店或顶级私人庄园。编号:AP-TMM-MBTO 6HA。",
+    area: "6 公顷(60,000 平方米)· 150 米沙滩",
+    features: ["直临湖岸", "拉索阿贝湖 150 米私人沙滩", "100% 安全用地,产权清晰", "适合生态度假村、酒店或私人庄园", "Manambato 宁静自然环境"],
+    pricing: ["50,000 阿里亚里/m²(10 欧元/m²)", "总价:3,000,000,000 阿里亚里 — 600,000 欧元(净价)"],
+    notes: ["产权过户费用已包含在价格内"],
   },
 ];
 
