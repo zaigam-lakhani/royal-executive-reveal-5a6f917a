@@ -320,6 +320,20 @@ export const extras: Record<Lang, Dict> = {
     "re.pricing": "价格",
     "re.cta.title": "正在考虑一处房产?",
     "re.cta.text": "我们的项目经理负责看房、资料和完整的交易支持 — 提供英语、法语、阿拉伯语、意大利语和中文服务。",
+
+    "agri.intro": "Synaps Agribusiness 在马达加斯加致力于将自给自足的农业转变为具有韧性的商业部门 — 由 Synaps 集团及其国际捐助者支持。",
+    "agri.missionTitle": "我们的使命",
+    "agri.mission": "Synaps Agribusiness 专注于优质农产品和出口部门的发展，与当地生产者、合作社及国际买家携手合作。",
+    "agri.productsTitle": "农产品",
+    "agri.products": "白芸豆 · 红芸豆 · 杂色芸豆 · 黑眼豆 · 扁豆 · 豇豆 · 绿豆 · 玉米 · 油籽",
+    "agri.exportTitle": "出口部门",
+    "agri.export": "咖啡 · 香料 · 皮利皮利辣椒 · 香草",
+    "agri.qualityTitle": "品质承诺",
+    "agri.quality": "Synaps Agribusiness 以来自马达加斯加的高品质产品满足买家的需求。",
+    "agri.storageTitle": "种子储存指南",
+    "agri.storage.p1": "妥善储存种子需注意三点：干燥、避光、避热。在此条件下，种子可保存数年。",
+    "agri.storage.p2": "可使用普通纸质信封或可重复使用的种子袋。关键是容器要密封良好 — 金属夹或回形针都可以。",
+    "agri.storage.p3": "将所有小袋放入密封玻璃罐中，置于阴凉避光处（如橱柜）。视品种不同，种子可保存 2 至 10 年。",
   },
 };
 
