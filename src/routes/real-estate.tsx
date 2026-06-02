@@ -58,6 +58,14 @@ import antetez7 from "@/assets/antetezambaro/07.jpg";
 import antetez8 from "@/assets/antetezambaro/08.jpg";
 import antetez9 from "@/assets/antetezambaro/09.jpg";
 import antetezMap from "@/assets/antetezambaro/10-map.jpg";
+import mika1 from "@/assets/mika-antsohihy/01.jpg";
+import mika2 from "@/assets/mika-antsohihy/02.jpg";
+import mikaMap from "@/assets/mika-antsohihy/03-map.jpg";
+import mika4 from "@/assets/mika-antsohihy/04.jpg";
+import mikaLake from "@/assets/mika-antsohihy/05-lake.jpg";
+import mika6 from "@/assets/mika-antsohihy/06.jpg";
+import mika7 from "@/assets/mika-antsohihy/07.jpg";
+import mikaAerial from "@/assets/mika-antsohihy/08-aerial.jpg";
 
 const ANAKAO_IMAGES = [
   { src: anakao10, alt: "Anakao — Turquoise lagoon beach, Soalara" },
@@ -82,6 +90,17 @@ const ANTETEZAMBARO_IMAGES = [
   { src: antetez8, alt: "Antetezambaro — Natural landscape near Ambodiatafana" },
   { src: antetez9, alt: "Antetezambaro — Wide view of the 6 Ha plot" },
   { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
+];
+
+const MIKA_IMAGES = [
+  { src: mikaAerial, alt: "MIKA Antsohihy — Aerial view of the 13,761 Ha estate, Sofia Region" },
+  { src: mikaLake, alt: "MIKA Antsohihy — Manjabory Laihininjongy permanent lake inside the site" },
+  { src: mika1, alt: "MIKA Antsohihy — Project overview, 13,761 hectares titled land" },
+  { src: mika6, alt: "MIKA Antsohihy — Open landscape with grazing herd, Sofia Region" },
+  { src: mika7, alt: "MIKA Antsohihy — Inland plains and natural environment" },
+  { src: mika4, alt: "MIKA Antsohihy — Emblematic Madagascar wetlands and birdlife" },
+  { src: mika2, alt: "MIKA Antsohihy — Smart-agriculture, environment and tourism positioning" },
+  { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
 ];
 
 const TOLIARY_SISAL_IMAGES = [
@@ -208,24 +227,8 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : []}
                     />
-
-                    {p.videos && p.videos.length > 0 && (
-                      <div className="grid gap-4 sm:grid-cols-2">
-                        {p.videos.map((v, vi) => (
-                          <video
-                            key={v}
-                            src={v}
-                            controls
-                            playsInline
-                            preload="metadata"
-                            className="aspect-video w-full rounded-2xl border border-[color-mix(in_oklab,var(--gold)_25%,transparent)] bg-black object-cover shadow-elegant"
-                            aria-label={`${p.title} — video ${vi + 1}`}
-                          />
-                        ))}
-                      </div>
-                    )}
 
                     <div className="grid gap-4 sm:grid-cols-2">
                       <div className="rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
