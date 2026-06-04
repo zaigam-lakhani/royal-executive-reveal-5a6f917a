@@ -696,6 +696,22 @@ const propFR: PropertyT[] = [
     pricing: ["Contactez le chef de projet pour les tarifs"],
     notes: ["Promoteur d'investissement Green Smart-Agriculture, Environnement et Tourisme", "Référence : 02T — Aryah Promotion"],
   },
+  {
+    id: "ilo-manana",
+    title: "AMBOHIMARINA — ILO MANANA",
+    subtitle: "Terrain au bord du lac · Cadre résidentiel et hôtelier premium",
+    location: "Ambohimarina — proche du Lac Iarivo, région d'Antananarivo",
+    description: "Terrain exceptionnel au bord du lac à Ambohimarina, dans un cadre paisible et pittoresque sur les rives du Lac Iarivo. La propriété combine prairies verdoyantes, pinèdes matures, vues sur le lac et atmosphère rurale tranquille, à seulement quelques minutes en voiture d'Antananarivo. Idéal pour un domaine privé, un éco-lodge, un programme résidentiel premium ou un projet hôtelier. Accès par piste aménagée ; espaces paysagers existants, ancien bassin et points de vue panoramiques sur le lac et les collines environnantes.",
+    features: [
+      "Vue directe sur le Lac Iarivo",
+      "Pinèdes matures et prairies verdoyantes",
+      "Cadre résidentiel et hôtelier paisible",
+      "À quelques minutes en voiture d'Antananarivo",
+      "Piste d'accès aménagée sur site",
+      "Idéal pour un domaine privé, un éco-lodge ou un projet résidentiel premium",
+    ],
+    pricing: ["Contactez le chef de projet pour les tarifs"],
+  },
 ];
 
 
