@@ -66,6 +66,29 @@ import mikaLake from "@/assets/mika-antsohihy/05-lake.jpg";
 import mika6 from "@/assets/mika-antsohihy/06.jpg";
 import mika7 from "@/assets/mika-antsohihy/07.jpg";
 import mikaAerial from "@/assets/mika-antsohihy/08-aerial.jpg";
+import ilo1 from "@/assets/ilo-manana/01.jpg";
+import ilo2 from "@/assets/ilo-manana/02.jpg";
+import ilo3 from "@/assets/ilo-manana/03.jpg";
+import ilo4 from "@/assets/ilo-manana/04.jpg";
+import ilo5 from "@/assets/ilo-manana/05.jpg";
+import ilo6 from "@/assets/ilo-manana/06.jpg";
+import ilo7 from "@/assets/ilo-manana/07.jpg";
+import ilo8 from "@/assets/ilo-manana/08.jpg";
+import ilo9 from "@/assets/ilo-manana/09.jpg";
+import ilo10 from "@/assets/ilo-manana/10.jpg";
+
+const ILO_MANANA_IMAGES = [
+  { src: ilo1, alt: "Ambohimarina — ILO MANANA: turquoise lagoon view from the property" },
+  { src: ilo2, alt: "Ambohimarina — ILO MANANA: lush lakeside vegetation on Lake Iarivo" },
+  { src: ilo3, alt: "Ambohimarina — ILO MANANA: panoramic view across Lake Iarivo" },
+  { src: ilo4, alt: "Ambohimarina — ILO MANANA: mature pine grove with lake horizon" },
+  { src: ilo5, alt: "Ambohimarina — ILO MANANA: prepared dirt access road on the plot" },
+  { src: ilo6, alt: "Ambohimarina — ILO MANANA: open green pasture and pine landscape" },
+  { src: ilo7, alt: "Ambohimarina — ILO MANANA: hillside view toward Antananarivo" },
+  { src: ilo8, alt: "Ambohimarina — ILO MANANA: existing landscaped area on the estate" },
+  { src: ilo9, alt: "Ambohimarina — ILO MANANA: lake view with existing basin and gardens" },
+  { src: ilo10, alt: "Ambohimarina — ILO MANANA: Lake Iarivo panorama from the plot" },
+];
 
 const ANAKAO_IMAGES = [
   { src: anakao10, alt: "Anakao — Turquoise lagoon beach, Soalara" },
@@ -227,7 +250,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">

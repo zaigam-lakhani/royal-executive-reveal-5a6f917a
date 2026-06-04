@@ -508,6 +508,22 @@ const propEN: PropertyT[] = [
     pricing: ["Contact the project manager for pricing"],
     notes: ["Promoter of Green Smart-Agriculture, Environment and Tourism investment", "Reference: 02T — Aryah Promotion"],
   },
+  {
+    id: "ilo-manana",
+    title: "AMBOHIMARINA — ILO MANANA",
+    subtitle: "Lakefront Land · Premium Residential & Hospitality Setting",
+    location: "Ambohimarina — near Lake Iarivo, Antananarivo region",
+    description: "Exceptional lakefront land in Ambohimarina, in a peaceful and scenic setting on the shores of Lake Iarivo. The property combines open green pastures, mature pine groves, lake views and a quiet rural atmosphere only a short drive from Antananarivo. Suitable for a private estate, eco-lodge, premium residential development or hospitality project. Access via a prepared dirt road; existing landscaped areas, an old basin and panoramic viewpoints across the lake and surrounding hills.",
+    features: [
+      "Direct lake views over Lake Iarivo",
+      "Mature pine groves and open green pastures",
+      "Quiet residential & hospitality setting",
+      "Short drive from Antananarivo",
+      "Prepared access road on site",
+      "Suitable for private estate, eco-lodge or premium residential project",
+    ],
+    pricing: ["Contact the project manager for pricing"],
+  },
 ];
 
 const propFR: PropertyT[] = [
@@ -679,6 +695,22 @@ const propFR: PropertyT[] = [
     ],
     pricing: ["Contactez le chef de projet pour les tarifs"],
     notes: ["Promoteur d'investissement Green Smart-Agriculture, Environnement et Tourisme", "Référence : 02T — Aryah Promotion"],
+  },
+  {
+    id: "ilo-manana",
+    title: "AMBOHIMARINA — ILO MANANA",
+    subtitle: "Terrain au bord du lac · Cadre résidentiel et hôtelier premium",
+    location: "Ambohimarina — proche du Lac Iarivo, région d'Antananarivo",
+    description: "Terrain exceptionnel au bord du lac à Ambohimarina, dans un cadre paisible et pittoresque sur les rives du Lac Iarivo. La propriété combine prairies verdoyantes, pinèdes matures, vues sur le lac et atmosphère rurale tranquille, à seulement quelques minutes en voiture d'Antananarivo. Idéal pour un domaine privé, un éco-lodge, un programme résidentiel premium ou un projet hôtelier. Accès par piste aménagée ; espaces paysagers existants, ancien bassin et points de vue panoramiques sur le lac et les collines environnantes.",
+    features: [
+      "Vue directe sur le Lac Iarivo",
+      "Pinèdes matures et prairies verdoyantes",
+      "Cadre résidentiel et hôtelier paisible",
+      "À quelques minutes en voiture d'Antananarivo",
+      "Piste d'accès aménagée sur site",
+      "Idéal pour un domaine privé, un éco-lodge ou un projet résidentiel premium",
+    ],
+    pricing: ["Contactez le chef de projet pour les tarifs"],
   },
 ];
 
@@ -853,6 +885,22 @@ const propAR: PropertyT[] = [
     pricing: ["تواصل مع مدير المشروع لمعرفة السعر"],
     notes: ["مروّج استثمارات الزراعة الذكية الخضراء والبيئة والسياحة", "المرجع: 02T — Aryah Promotion"],
   },
+  {
+    id: "ilo-manana",
+    title: "أمبوهيمارينا — إيلو مانانا",
+    subtitle: "أرض على ضفاف البحيرة · إطار سكني وفندقي راقٍ",
+    location: "أمبوهيمارينا — قرب بحيرة إياريفو، إقليم أنتاناناريفو",
+    description: "أرض استثنائية على ضفاف البحيرة في أمبوهيمارينا، في إطار هادئ وخلاب على ضفاف بحيرة إياريفو. تجمع الملكية بين المراعي الخضراء المفتوحة وغابات الصنوبر الناضجة وإطلالات البحيرة وأجواء ريفية هادئة على بُعد دقائق قليلة بالسيارة من أنتاناناريفو. مناسبة لضيعة خاصة، نُزُل بيئي، مشروع سكني راقٍ أو مشروع فندقي. الوصول عبر طريق ترابي مهيّأ؛ مساحات منسّقة قائمة، حوض قديم ونقاط مشاهدة بانورامية على البحيرة والتلال المحيطة.",
+    features: [
+      "إطلالات مباشرة على بحيرة إياريفو",
+      "غابات صنوبر ناضجة ومراعٍ خضراء مفتوحة",
+      "إطار سكني وفندقي هادئ",
+      "على بُعد دقائق بالسيارة من أنتاناناريفو",
+      "طريق وصول مهيّأ داخل الموقع",
+      "مناسبة لضيعة خاصة، نُزُل بيئي أو مشروع سكني راقٍ",
+    ],
+    pricing: ["تواصل مع مدير المشروع لمعرفة السعر"],
+  },
 ];
 
 
@@ -1026,6 +1074,22 @@ const propIT: PropertyT[] = [
     pricing: ["Contatta il project manager per il prezzo"],
     notes: ["Promotore di investimenti in Green Smart-Agriculture, Ambiente e Turismo", "Riferimento: 02T — Aryah Promotion"],
   },
+  {
+    id: "ilo-manana",
+    title: "AMBOHIMARINA — ILO MANANA",
+    subtitle: "Terreno fronte lago · Contesto residenziale e ricettivo premium",
+    location: "Ambohimarina — vicino al Lago Iarivo, regione di Antananarivo",
+    description: "Terreno eccezionale fronte lago ad Ambohimarina, in un contesto tranquillo e suggestivo sulle rive del Lago Iarivo. La proprietà combina prati verdi aperti, pinete mature, vista sul lago e atmosfera rurale silenziosa, a pochi minuti d'auto da Antananarivo. Adatto a una tenuta privata, un eco-lodge, un programma residenziale premium o un progetto ricettivo. Accesso tramite pista preparata; aree paesaggistiche esistenti, una vasca storica e punti panoramici sul lago e sulle colline circostanti.",
+    features: [
+      "Vista diretta sul Lago Iarivo",
+      "Pinete mature e prati verdi aperti",
+      "Contesto residenziale e ricettivo tranquillo",
+      "A pochi minuti d'auto da Antananarivo",
+      "Strada di accesso preparata in sito",
+      "Adatto a tenuta privata, eco-lodge o progetto residenziale premium",
+    ],
+    pricing: ["Contatta il project manager per il prezzo"],
+  },
 ];
 
 
@@ -1198,6 +1262,22 @@ const propZH: PropertyT[] = [
     ],
     pricing: ["请联系项目经理获取价格"],
     notes: ["绿色智能农业、环境与旅游投资推动方", "编号:02T — Aryah Promotion"],
+  },
+  {
+    id: "ilo-manana",
+    title: "AMBOHIMARINA — ILO MANANA",
+    subtitle: "湖畔土地 · 高端住宅与酒店选址",
+    location: "Ambohimarina — 邻近 Iarivo 湖,塔那那利佛大区",
+    description: "位于 Ambohimarina 的稀有湖畔土地,坐落在 Iarivo 湖畔宁静而风景如画的环境中。土地融合开阔的绿色牧场、成熟的松林、湖面景观以及静谧的乡村氛围,距塔那那利佛仅数分钟车程。适合私人庄园、生态度假村、高端住宅开发或酒店项目。通过整修的土路进入;现场有现成景观区域、旧水池以及可俯瞰湖泊与周边山丘的全景观景点。",
+    features: [
+      "直面 Iarivo 湖湖景",
+      "成熟松林与开阔绿色牧场",
+      "宁静的住宅与酒店环境",
+      "距塔那那利佛仅数分钟车程",
+      "现场已铺设进入道路",
+      "适合私人庄园、生态度假村或高端住宅项目",
+    ],
+    pricing: ["请联系项目经理获取价格"],
   },
 ];
 
