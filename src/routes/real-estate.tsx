@@ -25,47 +25,6 @@ import sahazaii8 from "@/assets/sahaza-ii/08.jpg";
 import sahazaii9 from "@/assets/sahaza-ii/09.jpg";
 import sahazaiiMap from "@/assets/sahaza-ii/10-map.jpg";
 import sahazaii11 from "@/assets/sahaza-ii/11.jpg";
-import sisal3 from "@/assets/toliary-sisal/003.jpg";
-import sisal4 from "@/assets/toliary-sisal/004.jpg";
-import sisal5 from "@/assets/toliary-sisal/005.jpg";
-import sisal6 from "@/assets/toliary-sisal/006.jpg";
-import sisal7 from "@/assets/toliary-sisal/007.jpg";
-import sisal9 from "@/assets/toliary-sisal/009.jpg";
-import sisal10 from "@/assets/toliary-sisal/010.jpg";
-import sisal11 from "@/assets/toliary-sisal/011.jpg";
-import manambato1 from "@/assets/manambato-rasoabe/01.jpg";
-import manambato2 from "@/assets/manambato-rasoabe/02.jpg";
-import manambato3 from "@/assets/manambato-rasoabe/03.jpg";
-import manambato4 from "@/assets/manambato-rasoabe/04.jpg";
-import manambato5 from "@/assets/manambato-rasoabe/05.jpg";
-import manambato6 from "@/assets/manambato-rasoabe/06.jpg";
-import anakao1 from "@/assets/anakao/01.jpeg";
-import anakao2 from "@/assets/anakao/02.jpeg";
-import anakao3 from "@/assets/anakao/03.jpeg";
-import anakao5 from "@/assets/anakao/05.jpeg";
-import anakao6 from "@/assets/anakao/06.jpeg";
-import anakao7 from "@/assets/anakao/07.jpeg";
-import anakao8 from "@/assets/anakao/08.jpeg";
-import anakao9 from "@/assets/anakao/09.jpeg";
-import anakao10 from "@/assets/anakao/10.jpeg";
-import antetez1 from "@/assets/antetezambaro/01.jpg";
-import antetez2 from "@/assets/antetezambaro/02.jpg";
-import antetez3 from "@/assets/antetezambaro/03.jpg";
-import antetez4 from "@/assets/antetezambaro/04.jpg";
-import antetez5 from "@/assets/antetezambaro/05.jpg";
-import antetez6 from "@/assets/antetezambaro/06.jpg";
-import antetez7 from "@/assets/antetezambaro/07.jpg";
-import antetez8 from "@/assets/antetezambaro/08.jpg";
-import antetez9 from "@/assets/antetezambaro/09.jpg";
-import antetezMap from "@/assets/antetezambaro/10-map.jpg";
-import mika1 from "@/assets/mika-antsohihy/01.jpg";
-import mika2 from "@/assets/mika-antsohihy/02.jpg";
-import mikaMap from "@/assets/mika-antsohihy/03-map.jpg";
-import mika4 from "@/assets/mika-antsohihy/04.jpg";
-import mikaLake from "@/assets/mika-antsohihy/05-lake.jpg";
-import mika6 from "@/assets/mika-antsohihy/06.jpg";
-import mika7 from "@/assets/mika-antsohihy/07.jpg";
-import mikaAerial from "@/assets/mika-antsohihy/08-aerial.jpg";
 import ilo1 from "@/assets/ilo-manana/01.jpg";
 import ilo2 from "@/assets/ilo-manana/02.jpg";
 import ilo3 from "@/assets/ilo-manana/03.jpg";
@@ -76,6 +35,24 @@ import ilo7 from "@/assets/ilo-manana/07.jpg";
 import ilo8 from "@/assets/ilo-manana/08.jpg";
 import ilo9 from "@/assets/ilo-manana/09.jpg";
 import ilo10 from "@/assets/ilo-manana/10.jpg";
+import andohagara1 from "@/assets/andohagara/01.jpg";
+import andohagara2 from "@/assets/andohagara/02.jpg";
+import andohagara3 from "@/assets/andohagara/03.jpg";
+import smSea1 from "@/assets/sainte-marie-seafront/01.jpg";
+import smSea2 from "@/assets/sainte-marie-seafront/02.jpg";
+import smSea3 from "@/assets/sainte-marie-seafront/03.jpg";
+import smClub1 from "@/assets/saint-mary-club/01.jpg";
+import smClub2 from "@/assets/saint-mary-club/02.jpg";
+import smClub3 from "@/assets/saint-mary-club/03.jpg";
+import manompagna1 from "@/assets/manompagna/01.jpg";
+import manompagna2 from "@/assets/manompagna/02.jpg";
+import manompagna3 from "@/assets/manompagna/03.jpg";
+import analanj1 from "@/assets/analanjirofo/01.jpg";
+import analanj2 from "@/assets/analanjirofo/02.jpg";
+import analanj3 from "@/assets/analanjirofo/03.jpg";
+import relais1 from "@/assets/relais-castle/01.jpg";
+import relais2 from "@/assets/relais-castle/02.jpg";
+import relais3 from "@/assets/relais-castle/03.jpg";
 
 const ILO_MANANA_IMAGES = [
   { src: ilo1, alt: "Ambohimarina — ILO MANANA: turquoise lagoon view from the property" },
@@ -90,62 +67,41 @@ const ILO_MANANA_IMAGES = [
   { src: ilo10, alt: "Ambohimarina — ILO MANANA: Lake Iarivo panorama from the plot" },
 ];
 
-const ANAKAO_IMAGES = [
-  { src: anakao10, alt: "Anakao — Turquoise lagoon beach, Soalara" },
-  { src: anakao3, alt: "Anakao — White sand and clear turquoise water" },
-  { src: anakao7, alt: "Anakao — Ocean view from the land plot" },
-  { src: anakao6, alt: "Anakao — Wide private beach at low tide" },
-  { src: anakao1, alt: "Anakao — Sea view through coastal vegetation" },
-  { src: anakao2, alt: "Anakao — Panoramic coastal landscape" },
-  { src: anakao5, alt: "Anakao — Coastal dune with native vegetation" },
-  { src: anakao8, alt: "Anakao — Beach dunes and sandstone" },
-  { src: anakao9, alt: "Anakao — Land plot with native trees" },
+const ANDOHAGARA_IMAGES = [
+  { src: andohagara1, alt: "Andohagara — Aerial view of the 9,200 sqm investment land near Amborovy Airport, Mahajanga" },
+  { src: andohagara2, alt: "Andohagara — Secured flat plot on Antsanitia Road, Mahajanga" },
+  { src: andohagara3, alt: "Andohagara — Antsanitia Beach nearby, 15 minutes from the property" },
 ];
 
-const ANTETEZAMBARO_IMAGES = [
-  { src: antetez1, alt: "Antetezambaro — 6 Ha land near Tamatave on RN5" },
-  { src: antetez2, alt: "Antetezambaro — Lush green plot, Toamasina II" },
-  { src: antetez3, alt: "Antetezambaro — Strategic land along RN5 to Foulpointe" },
-  { src: antetez4, alt: "Antetezambaro — Ready-to-build secured land" },
-  { src: antetez5, alt: "Antetezambaro — Tropical 6 hectare property" },
-  { src: antetez6, alt: "Antetezambaro — Access path and surroundings" },
-  { src: antetez7, alt: "Antetezambaro — Cleared area on the estate" },
-  { src: antetez8, alt: "Antetezambaro — Natural landscape near Ambodiatafana" },
-  { src: antetez9, alt: "Antetezambaro — Wide view of the 6 Ha plot" },
-  { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
+const SAINTE_MARIE_SEAFRONT_IMAGES = [
+  { src: smSea1, alt: "Sainte-Marie Island — Seafront land at Ampanihy" },
+  { src: smSea2, alt: "Sainte-Marie Island — Aerial coastal view, Nosy Boraha" },
+  { src: smSea3, alt: "Sainte-Marie Island — Humpback whale sanctuary surroundings" },
 ];
 
-const MIKA_IMAGES = [
-  { src: mikaAerial, alt: "MIKA Antsohihy — Aerial view of the 13,761 Ha estate, Sofia Region" },
-  { src: mikaLake, alt: "MIKA Antsohihy — Manjabory Laihininjongy permanent lake inside the site" },
-  { src: mika1, alt: "MIKA Antsohihy — Project overview, 13,761 hectares titled land" },
-  { src: mika6, alt: "MIKA Antsohihy — Open landscape with grazing herd, Sofia Region" },
-  { src: mika7, alt: "MIKA Antsohihy — Inland plains and natural environment" },
-  { src: mika4, alt: "MIKA Antsohihy — Emblematic Madagascar wetlands and birdlife" },
-  { src: mika2, alt: "MIKA Antsohihy — Smart-agriculture, environment and tourism positioning" },
-  { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
+const SAINT_MARY_CLUB_IMAGES = [
+  { src: smClub1, alt: "Saint Mary Club — 3-star resort, Sainte-Marie Island" },
+  { src: smClub2, alt: "Saint Mary Club — Soundproof bungalow" },
+  { src: smClub3, alt: "Saint Mary Club — Swimming pool and grounds" },
 ];
 
-const TOLIARY_SISAL_IMAGES = [
-  { src: sisal3, alt: "Toliary-II — Sisal plantation, Agave Sisalana plants" },
-  { src: sisal4, alt: "Toliary-II — 45-hectare sisal field, southern Madagascar" },
-  { src: sisal5, alt: "Toliary-II — Mature sisal plants under arid climate" },
-  { src: sisal6, alt: "Toliary-II — Organic sisal plantation panorama" },
-  { src: sisal7, alt: "Toliary-II — Sisal fibre harvest area" },
-  { src: sisal9, alt: "Toliary-II — Wide view of the 45 Ha sisal estate" },
-  { src: sisal10, alt: "Toliary-II — Sisal rows across the property" },
-  { src: sisal11, alt: "Toliary-II — Sisal plantation horizon, South Madagascar" },
+const MANOMPAGNA_IMAGES = [
+  { src: manompagna1, alt: "Manompagna — Large coastal agricultural land, Analanjirofo District" },
+  { src: manompagna2, alt: "Manompagna — Countryside panorama" },
+  { src: manompagna3, alt: "Manompagna — Investment land panorama" },
 ];
 
-const MANAMBATO_IMAGES = [
-  { src: manambato1, alt: "Manambato — Lake Rasoabe waterfront, 6 hectares" },
-  { src: manambato2, alt: "Manambato — 150 m private beach on Lake Rasoabe" },
-  { src: manambato3, alt: "Manambato — Lakeside view of the 6 Ha estate" },
-  { src: manambato4, alt: "Manambato — Natural setting on Lake Rasoabe" },
-  { src: manambato5, alt: "Manambato — Waterfront land panorama" },
-  { src: manambato6, alt: "Manambato — Lake Rasoabe beachfront property" },
+const ANALANJIROFO_IMAGES = [
+  { src: analanj1, alt: "Analanjirofo — Vanilla and clove plantation, Soanierana Ivongo" },
+  { src: analanj2, alt: "Analanjirofo — Coconut and lychee plantation, East Coast Madagascar" },
+  { src: analanj3, alt: "Analanjirofo — Aerial view of tropical estate" },
 ];
 
+const RELAIS_CASTLE_IMAGES = [
+  { src: relais1, alt: "Relais Castle — Moroccan-style mansion, Anosy Avaratra" },
+  { src: relais2, alt: "Relais Castle — Terracotta residence and grounds" },
+  { src: relais3, alt: "Relais Castle — Riad-style interior courtyard" },
+];
 
 const SAHAZA_II_IMAGES = [
   { src: sahazaii2, alt: "SAHAZA II — Plotted parcels with cleared access roads, Sabotsy Namehana" },
@@ -161,7 +117,6 @@ const SAHAZA_II_IMAGES = [
   { src: sahazaii11, alt: "SAHAZA II — Panoramic landscape view across the hills of Sabotsy Namehana" },
 ];
 
-
 const SAHAZA_I_IMAGES = [
   { src: sahaza10, alt: "SAHAZA I — Plotted parcels, Ambatolampy Tsimahafotsy" },
   { src: sahaza2, alt: "SAHAZA I — Panoramic view, Ambatolampy Tsimahafotsy" },
@@ -175,6 +130,18 @@ const SAHAZA_I_IMAGES = [
   { src: sahaza8, alt: "SAHAZA I — Site perimeter wall" },
   { src: sahaza11, alt: "SAHAZA I — Marked plots with mountain horizon" },
 ];
+
+const GALLERY_BY_ID: Record<string, { src: string; alt: string }[]> = {
+  "sahaza-i": SAHAZA_I_IMAGES,
+  "sahaza-ii": SAHAZA_II_IMAGES,
+  "ilo-manana": ILO_MANANA_IMAGES,
+  "andohagara": ANDOHAGARA_IMAGES,
+  "sainte-marie-seafront": SAINTE_MARIE_SEAFRONT_IMAGES,
+  "saint-mary-club": SAINT_MARY_CLUB_IMAGES,
+  "manompagna": MANOMPAGNA_IMAGES,
+  "analanjirofo": ANALANJIROFO_IMAGES,
+  "relais-castle": RELAIS_CASTLE_IMAGES,
+};
 
 export const Route = createFileRoute("/real-estate")({
   head: () => ({
@@ -250,7 +217,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : []}
+                      images={GALLERY_BY_ID[p.id] ?? []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
