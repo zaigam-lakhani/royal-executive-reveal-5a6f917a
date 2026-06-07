@@ -76,6 +76,29 @@ import ilo7 from "@/assets/ilo-manana/07.jpg";
 import ilo8 from "@/assets/ilo-manana/08.jpg";
 import ilo9 from "@/assets/ilo-manana/09.jpg";
 import ilo10 from "@/assets/ilo-manana/10.jpg";
+import ampanihy01 from "@/assets/sainte-marie-ampanihy/01.png.asset.json";
+import ampanihy02 from "@/assets/sainte-marie-ampanihy/02.png.asset.json";
+import ampanihy03 from "@/assets/sainte-marie-ampanihy/03.png.asset.json";
+import ampanihy04 from "@/assets/sainte-marie-ampanihy/04.png.asset.json";
+import ampanihy05 from "@/assets/sainte-marie-ampanihy/05.png.asset.json";
+import ampanihy06 from "@/assets/sainte-marie-ampanihy/06.png.asset.json";
+import ampanihy07 from "@/assets/sainte-marie-ampanihy/07.png.asset.json";
+import ampanihy08 from "@/assets/sainte-marie-ampanihy/08.png.asset.json";
+import ampanihy09 from "@/assets/sainte-marie-ampanihy/09.png.asset.json";
+import ampanihy10 from "@/assets/sainte-marie-ampanihy/10.png.asset.json";
+
+const SAINTE_MARIE_AMPANIHY_IMAGES = [
+  { src: ampanihy01.url, alt: "Sainte-Marie — Ampanihy 65 Ha: view from afar across Felankasina lake" },
+  { src: ampanihy02.url, alt: "Sainte-Marie — Ampanihy 65 Ha: turquoise sea view from boat" },
+  { src: ampanihy03.url, alt: "Sainte-Marie — Ampanihy 65 Ha: titled land boundary marker on the beach" },
+  { src: ampanihy04.url, alt: "Sainte-Marie — Ampanihy 65 Ha: white sand dunes and ocean horizon" },
+  { src: ampanihy05.url, alt: "Sainte-Marie — Ampanihy 65 Ha: beachfront panorama with native vegetation" },
+  { src: ampanihy06.url, alt: "Sainte-Marie — Ampanihy 65 Ha: coastal dune landscape" },
+  { src: ampanihy07.url, alt: "Sainte-Marie — Ampanihy 65 Ha: lush tropical vegetation on the plot" },
+  { src: ampanihy08.url, alt: "Sainte-Marie — Ampanihy 65 Ha: coconut palms and natural pathways" },
+  { src: ampanihy09.url, alt: "Sainte-Marie — Ampanihy 65 Ha: green inland landscape of the property" },
+  { src: ampanihy10.url, alt: "Sainte-Marie — Ampanihy 65 Ha: beach access through coastal greenery" },
+];
 
 const ILO_MANANA_IMAGES = [
   { src: ilo1, alt: "Ambohimarina — ILO MANANA: turquoise lagoon view from the property" },
