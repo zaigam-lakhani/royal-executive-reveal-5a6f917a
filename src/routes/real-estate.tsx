@@ -94,6 +94,26 @@ import manompagna05 from "@/assets/manompagna-uploads/image-15.png.asset.json";
 import analanjirofoU1 from "@/assets/analanjirofo-uploads/image-16.png.asset.json";
 import analanjirofoU2 from "@/assets/analanjirofo-uploads/image-17.png.asset.json";
 import analanjirofoU3 from "@/assets/analanjirofo-uploads/image-18.png.asset.json";
+import smc19 from "@/assets/saint-mary-club-uploads/image-19.png.asset.json";
+import smc20 from "@/assets/saint-mary-club-uploads/image-20.png.asset.json";
+import smc21 from "@/assets/saint-mary-club-uploads/image-21.png.asset.json";
+import smc22 from "@/assets/saint-mary-club-uploads/image-22.png.asset.json";
+import smc23 from "@/assets/saint-mary-club-uploads/image-23.png.asset.json";
+import smc24 from "@/assets/saint-mary-club-uploads/image-24.png.asset.json";
+import smc25 from "@/assets/saint-mary-club-uploads/image-25.png.asset.json";
+import smc26 from "@/assets/saint-mary-club-uploads/image-26.png.asset.json";
+
+const SAINT_MARY_CLUB_IMAGES = [
+  { src: smc25.url, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
+  { src: smc21.url, alt: "Saint Mary Club — Whale sculpture in the tropical garden by the pool" },
+  { src: smc19.url, alt: "Saint Mary Club — Restaurant interior with tropical decor" },
+  { src: smc20.url, alt: "Saint Mary Club — Large restaurant dining hall" },
+  { src: smc26.url, alt: "Saint Mary Club — Bungalow interior bedroom with sea view" },
+  { src: smc23.url, alt: "Saint Mary Club — Soundproofed bungalow nestled among trees" },
+  { src: smc24.url, alt: "Saint Mary Club — Bungalow exterior surrounded by lush vegetation" },
+  { src: smc22.url, alt: "Saint Mary Club — Open landscaped grounds of the 21 Ha estate" },
+];
+
 
 const ANALANJIROFO_IMAGES = [
   { src: analanjirofoU1.url, alt: "Analanjirofo — Soanierana Ivongo: inland path through coconut groves (Lot 1 Felankasina, Ampanihy)" },
