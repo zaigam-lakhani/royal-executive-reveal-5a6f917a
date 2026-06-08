@@ -91,6 +91,15 @@ import manompagna02 from "@/assets/manompagna-uploads/image-12.png.asset.json";
 import manompagna03 from "@/assets/manompagna-uploads/image-13.png.asset.json";
 import manompagna04 from "@/assets/manompagna-uploads/image-14.png.asset.json";
 import manompagna05 from "@/assets/manompagna-uploads/image-15.png.asset.json";
+import analanjirofoU1 from "@/assets/analanjirofo-uploads/image-16.png.asset.json";
+import analanjirofoU2 from "@/assets/analanjirofo-uploads/image-17.png.asset.json";
+import analanjirofoU3 from "@/assets/analanjirofo-uploads/image-18.png.asset.json";
+
+const ANALANJIROFO_IMAGES = [
+  { src: analanjirofoU1.url, alt: "Analanjirofo — Soanierana Ivongo: inland path through coconut groves (Lot 1 Felankasina, Ampanihy)" },
+  { src: analanjirofoU2.url, alt: "Analanjirofo — Soanierana Ivongo: lush tropical vegetation on the property (Lot 2 Herisoafanjava)" },
+  { src: analanjirofoU3.url, alt: "Analanjirofo — Soanierana Ivongo: beachfront with native trees and ocean view (Lot 3 Sahasoa-II)" },
+];
 
 const MANOMPAGNA_IMAGES = [
   { src: manompagna01.url, alt: "Manompagna — Coastal land with ocean view and native vegetation" },
