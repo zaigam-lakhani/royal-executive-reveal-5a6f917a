@@ -86,6 +86,19 @@ import ampanihy07 from "@/assets/sainte-marie-ampanihy/07.png.asset.json";
 import ampanihy08 from "@/assets/sainte-marie-ampanihy/08.png.asset.json";
 import ampanihy09 from "@/assets/sainte-marie-ampanihy/09.png.asset.json";
 import ampanihy10 from "@/assets/sainte-marie-ampanihy/10.png.asset.json";
+import manompagna01 from "@/assets/manompagna-uploads/image-11.png.asset.json";
+import manompagna02 from "@/assets/manompagna-uploads/image-12.png.asset.json";
+import manompagna03 from "@/assets/manompagna-uploads/image-13.png.asset.json";
+import manompagna04 from "@/assets/manompagna-uploads/image-14.png.asset.json";
+import manompagna05 from "@/assets/manompagna-uploads/image-15.png.asset.json";
+
+const MANOMPAGNA_IMAGES = [
+  { src: manompagna01.url, alt: "Manompagna — Coastal land with ocean view and native vegetation" },
+  { src: manompagna02.url, alt: "Manompagna — Beachfront with palms and tropical foliage" },
+  { src: manompagna03.url, alt: "Manompagna — White sand beach along the shoreline" },
+  { src: manompagna04.url, alt: "Manompagna — Lush green inland landscape of the property" },
+  { src: manompagna05.url, alt: "Manompagna — Ampanihy dune and coastal vegetation panorama" },
+];
 
 const SAINTE_MARIE_AMPANIHY_IMAGES = [
   { src: ampanihy01.url, alt: "Sainte-Marie — Ampanihy 65 Ha: view from afar across Felankasina lake" },
@@ -273,7 +286,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
