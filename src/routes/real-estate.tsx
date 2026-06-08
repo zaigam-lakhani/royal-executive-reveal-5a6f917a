@@ -158,6 +158,11 @@ const ILO_MANANA_IMAGES = [
   { src: ilo8, alt: "Ambohimarina — ILO MANANA: existing landscaped area on the estate" },
   { src: ilo9, alt: "Ambohimarina — ILO MANANA: lake view with existing basin and gardens" },
   { src: ilo10, alt: "Ambohimarina — ILO MANANA: Lake Iarivo panorama from the plot" },
+  { src: ilo11Asset.url, alt: "Ambohimarina — ILO MANANA: prepared dirt access road across the plateau" },
+  { src: ilo12Asset.url, alt: "Ambohimarina — ILO MANANA: pine grove with Lake Iarivo in the background" },
+  { src: ilo13Asset.url, alt: "Ambohimarina — ILO MANANA: open grasslands with mature pines and power line access" },
+  { src: ilo14Asset.url, alt: "Ambohimarina — ILO MANANA: panoramic view over Lake Iarivo from the property" },
+  { src: ilo15Asset.url, alt: "Ambohimarina — ILO MANANA: Lake Iarivo shoreline with reeds and banana trees" },
 ];
 
 const ANAKAO_IMAGES = [
