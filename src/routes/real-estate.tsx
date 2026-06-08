@@ -76,6 +76,11 @@ import ilo7 from "@/assets/ilo-manana/07.jpg";
 import ilo8 from "@/assets/ilo-manana/08.jpg";
 import ilo9 from "@/assets/ilo-manana/09.jpg";
 import ilo10 from "@/assets/ilo-manana/10.jpg";
+import ilo11Asset from "@/assets/ilo-manana-uploads/image-27.png.asset.json";
+import ilo12Asset from "@/assets/ilo-manana-uploads/image-28.png.asset.json";
+import ilo13Asset from "@/assets/ilo-manana-uploads/image-29.png.asset.json";
+import ilo14Asset from "@/assets/ilo-manana-uploads/image-30.png.asset.json";
+import ilo15Asset from "@/assets/ilo-manana-uploads/image-31.png.asset.json";
 import ampanihy01 from "@/assets/sainte-marie-ampanihy/01.png.asset.json";
 import ampanihy02 from "@/assets/sainte-marie-ampanihy/02.png.asset.json";
 import ampanihy03 from "@/assets/sainte-marie-ampanihy/03.png.asset.json";
@@ -153,6 +158,11 @@ const ILO_MANANA_IMAGES = [
   { src: ilo8, alt: "Ambohimarina — ILO MANANA: existing landscaped area on the estate" },
   { src: ilo9, alt: "Ambohimarina — ILO MANANA: lake view with existing basin and gardens" },
   { src: ilo10, alt: "Ambohimarina — ILO MANANA: Lake Iarivo panorama from the plot" },
+  { src: ilo11Asset.url, alt: "Ambohimarina — ILO MANANA: prepared dirt access road across the plateau" },
+  { src: ilo12Asset.url, alt: "Ambohimarina — ILO MANANA: pine grove with Lake Iarivo in the background" },
+  { src: ilo13Asset.url, alt: "Ambohimarina — ILO MANANA: open grasslands with mature pines and power line access" },
+  { src: ilo14Asset.url, alt: "Ambohimarina — ILO MANANA: panoramic view over Lake Iarivo from the property" },
+  { src: ilo15Asset.url, alt: "Ambohimarina — ILO MANANA: Lake Iarivo shoreline with reeds and banana trees" },
 ];
 
 const ANAKAO_IMAGES = [
