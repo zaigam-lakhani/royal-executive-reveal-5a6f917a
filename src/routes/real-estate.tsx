@@ -219,7 +219,6 @@ const ANTETEZAMBARO_IMAGES = [
   { src: antetez7, alt: "Antetezambaro — Cleared area on the estate" },
   { src: antetez8, alt: "Antetezambaro — Natural landscape near Ambodiatafana" },
   { src: antetez9, alt: "Antetezambaro — Wide view of the 6 Ha plot" },
-  { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
 ];
 
 const MIKA_IMAGES = [
