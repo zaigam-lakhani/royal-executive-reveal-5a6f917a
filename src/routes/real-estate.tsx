@@ -229,7 +229,6 @@ const MIKA_IMAGES = [
   { src: mika7, alt: "MIKA Antsohihy — Inland plains and natural environment" },
   { src: mika4, alt: "MIKA Antsohihy — Emblematic Madagascar wetlands and birdlife" },
   { src: mika2, alt: "MIKA Antsohihy — Smart-agriculture, environment and tourism positioning" },
-  { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
 ];
 
 const TOLIARY_SISAL_IMAGES = [
@@ -263,9 +262,34 @@ const SAHAZA_II_IMAGES = [
   { src: sahazaii9, alt: "SAHAZA II — Wide open buildable land" },
   { src: sahazaii4, alt: "SAHAZA II — Site perimeter and access path" },
   { src: sahazaii8, alt: "SAHAZA II — Pine-lined plots with secured boundary" },
-  { src: sahazaiiMap, alt: "SAHAZA II — Aerial location map, Antsahamaharafoza" },
   { src: sahazaii11, alt: "SAHAZA II — Panoramic landscape view across the hills of Sabotsy Namehana" },
 ];
+
+const RELAIS_CASTLE_IMAGES = [
+  { src: relais1.url, alt: "Relais Castle Moroccan — Multi-story building with castle-like crenellated walls and arched openings" },
+  { src: relais2.url, alt: "Relais Castle Moroccan — Moroccan-style facade with arched windows" },
+  { src: relais3.url, alt: "Relais Castle Moroccan — Courtyard with arches and columns" },
+  { src: relais4.url, alt: "Relais Castle Moroccan — Two-story courtyard with arches, columns and blue/white checkered floor with central basin" },
+  { src: relais5.url, alt: "Relais Castle Moroccan — View over green rural landscape from the property" },
+  { src: relais6.url, alt: "Relais Castle Moroccan — Courtyard with multiple levels of arches, columns and central fountain" },
+  { src: relais7.url, alt: "Relais Castle Moroccan — Castle-style facade with crenellated walls, Anosy Avaratra" },
+];
+
+const PROPERTY_MAPS: Record<string, { src: string; alt: string }[]> = {
+  "saint-mary-club": [
+    { src: smcMap01.url, alt: "Saint Mary Club — Location map: Tintingue Bay, Sainte-Marie Island, Manompana, Tanambe" },
+    { src: smcMap02.url, alt: "Saint Mary Club — Sainte-Marie Island (Nosy Boraha) site location with Tour Invest Immo S.A" },
+  ],
+  "antetezambaro": [
+    { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
+  ],
+  "mika-antsohihy": [
+    { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
+  ],
+  "sahaza-ii": [
+    { src: sahazaiiMap, alt: "SAHAZA II — Aerial location map, Antsahamaharafoza" },
+  ],
+};
 
 
 const SAHAZA_I_IMAGES = [
