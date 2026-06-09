@@ -107,6 +107,16 @@ import smc23 from "@/assets/saint-mary-club-uploads/image-23.png.asset.json";
 import smc24 from "@/assets/saint-mary-club-uploads/image-24.png.asset.json";
 import smc25 from "@/assets/saint-mary-club-uploads/image-25.png.asset.json";
 import smc26 from "@/assets/saint-mary-club-uploads/image-26.png.asset.json";
+import andohagara32 from "@/assets/andohagara-uploads/image-32.png.asset.json";
+import andohagara33 from "@/assets/andohagara-uploads/image-33.png.asset.json";
+import andohagara34 from "@/assets/andohagara-uploads/image-34.png.asset.json";
+import andohagara35 from "@/assets/andohagara-uploads/image-35.png.asset.json";
+import andohagara36 from "@/assets/andohagara-uploads/image-36.png.asset.json";
+import andohagara37 from "@/assets/andohagara-uploads/image-37.png.asset.json";
+import andohagara38 from "@/assets/andohagara-uploads/image-38.png.asset.json";
+import andohagara39 from "@/assets/andohagara-uploads/image-39.png.asset.json";
+import andohagara40 from "@/assets/andohagara-uploads/image-40.png.asset.json";
+import andohagara41 from "@/assets/andohagara-uploads/image-41.png.asset.json";
 
 const SAINT_MARY_CLUB_IMAGES = [
   { src: smc25.url, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
@@ -117,6 +127,19 @@ const SAINT_MARY_CLUB_IMAGES = [
   { src: smc23.url, alt: "Saint Mary Club — Soundproofed bungalow nestled among trees" },
   { src: smc24.url, alt: "Saint Mary Club — Bungalow exterior surrounded by lush vegetation" },
   { src: smc22.url, alt: "Saint Mary Club — Open landscaped grounds of the 21 Ha estate" },
+];
+
+const ANDOHAGARA_IMAGES = [
+  { src: andohagara32.url, alt: "Andohagara — Amborovy Airport: access tracks and open buildable land near Mahajanga" },
+  { src: andohagara33.url, alt: "Andohagara — Amborovy Airport: green flat land with open sky and distant structures" },
+  { src: andohagara34.url, alt: "Andohagara — Amborovy Airport: sandy path crossing the grassy property" },
+  { src: andohagara35.url, alt: "Andohagara — Amborovy Airport: wide meadow area with mature tree on the plot" },
+  { src: andohagara36.url, alt: "Andohagara — Amborovy Airport: panoramic view across the flat secured land" },
+  { src: andohagara37.url, alt: "Andohagara — Amborovy Airport: dual-access sandy road approaching the site" },
+  { src: andohagara38.url, alt: "Andohagara — Amborovy Airport: vegetated section of the property near neighboring buildings" },
+  { src: andohagara39.url, alt: "Andohagara — Amborovy Airport: roadside frontage with native vegetation and blue sky" },
+  { src: andohagara40.url, alt: "Andohagara — Amborovy Airport: crossroads-style access area on the property" },
+  { src: andohagara41.url, alt: "Andohagara — Amborovy Airport: ground marker detail on sandy soil" },
 ];
 
 
@@ -325,7 +348,7 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "andohagara" ? ANDOHAGARA_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : []}
                     />
 
                     <div className="grid gap-4 sm:grid-cols-2">
