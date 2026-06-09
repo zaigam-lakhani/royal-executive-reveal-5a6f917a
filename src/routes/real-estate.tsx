@@ -171,7 +171,7 @@ const SAINTE_MARIE_AMPANIHY_IMAGES = [
 ];
 
 const ILO_MANANA_IMAGES = [
-  { src: ilo1, alt: "Ambohimarina — ILO MANANA: turquoise lagoon view from the property" },
+  
   { src: ilo2, alt: "Ambohimarina — ILO MANANA: lush lakeside vegetation on Lake Iarivo" },
   { src: ilo3, alt: "Ambohimarina — ILO MANANA: panoramic view across Lake Iarivo" },
   { src: ilo4, alt: "Ambohimarina — ILO MANANA: mature pine grove with lake horizon" },
