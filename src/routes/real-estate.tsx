@@ -117,6 +117,15 @@ import andohagara38 from "@/assets/andohagara-uploads/image-38.png.asset.json";
 import andohagara39 from "@/assets/andohagara-uploads/image-39.png.asset.json";
 import andohagara40 from "@/assets/andohagara-uploads/image-40.png.asset.json";
 import andohagara41 from "@/assets/andohagara-uploads/image-41.png.asset.json";
+import smcMap01 from "@/assets/saint-mary-club-maps/map-01.png.asset.json";
+import smcMap02 from "@/assets/saint-mary-club-maps/map-02.png.asset.json";
+import relais1 from "@/assets/relais-castle-uploads/image-1.jpg.asset.json";
+import relais2 from "@/assets/relais-castle-uploads/image-2.jpg.asset.json";
+import relais3 from "@/assets/relais-castle-uploads/image-3.jpg.asset.json";
+import relais4 from "@/assets/relais-castle-uploads/image-4.jpg.asset.json";
+import relais5 from "@/assets/relais-castle-uploads/image-5.jpg.asset.json";
+import relais6 from "@/assets/relais-castle-uploads/image-6.jpg.asset.json";
+import relais7 from "@/assets/relais-castle-uploads/image-7.jpg.asset.json";
 
 const SAINT_MARY_CLUB_IMAGES = [
   { src: smc25.url, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
