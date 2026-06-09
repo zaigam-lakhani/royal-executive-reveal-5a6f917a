@@ -117,6 +117,15 @@ import andohagara38 from "@/assets/andohagara-uploads/image-38.png.asset.json";
 import andohagara39 from "@/assets/andohagara-uploads/image-39.png.asset.json";
 import andohagara40 from "@/assets/andohagara-uploads/image-40.png.asset.json";
 import andohagara41 from "@/assets/andohagara-uploads/image-41.png.asset.json";
+import smcMap01 from "@/assets/saint-mary-club-maps/map-01.png.asset.json";
+import smcMap02 from "@/assets/saint-mary-club-maps/map-02.png.asset.json";
+import relais1 from "@/assets/relais-castle-uploads/image-1.jpg.asset.json";
+import relais2 from "@/assets/relais-castle-uploads/image-2.jpg.asset.json";
+import relais3 from "@/assets/relais-castle-uploads/image-3.jpg.asset.json";
+import relais4 from "@/assets/relais-castle-uploads/image-4.jpg.asset.json";
+import relais5 from "@/assets/relais-castle-uploads/image-5.jpg.asset.json";
+import relais6 from "@/assets/relais-castle-uploads/image-6.jpg.asset.json";
+import relais7 from "@/assets/relais-castle-uploads/image-7.jpg.asset.json";
 
 const SAINT_MARY_CLUB_IMAGES = [
   { src: smc25.url, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
@@ -210,7 +219,6 @@ const ANTETEZAMBARO_IMAGES = [
   { src: antetez7, alt: "Antetezambaro — Cleared area on the estate" },
   { src: antetez8, alt: "Antetezambaro — Natural landscape near Ambodiatafana" },
   { src: antetez9, alt: "Antetezambaro — Wide view of the 6 Ha plot" },
-  { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
 ];
 
 const MIKA_IMAGES = [
@@ -221,7 +229,6 @@ const MIKA_IMAGES = [
   { src: mika7, alt: "MIKA Antsohihy — Inland plains and natural environment" },
   { src: mika4, alt: "MIKA Antsohihy — Emblematic Madagascar wetlands and birdlife" },
   { src: mika2, alt: "MIKA Antsohihy — Smart-agriculture, environment and tourism positioning" },
-  { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
 ];
 
 const TOLIARY_SISAL_IMAGES = [
@@ -255,9 +262,34 @@ const SAHAZA_II_IMAGES = [
   { src: sahazaii9, alt: "SAHAZA II — Wide open buildable land" },
   { src: sahazaii4, alt: "SAHAZA II — Site perimeter and access path" },
   { src: sahazaii8, alt: "SAHAZA II — Pine-lined plots with secured boundary" },
-  { src: sahazaiiMap, alt: "SAHAZA II — Aerial location map, Antsahamaharafoza" },
   { src: sahazaii11, alt: "SAHAZA II — Panoramic landscape view across the hills of Sabotsy Namehana" },
 ];
+
+const RELAIS_CASTLE_IMAGES = [
+  { src: relais1.url, alt: "Relais Castle Moroccan — Multi-story building with castle-like crenellated walls and arched openings" },
+  { src: relais2.url, alt: "Relais Castle Moroccan — Moroccan-style facade with arched windows" },
+  { src: relais3.url, alt: "Relais Castle Moroccan — Courtyard with arches and columns" },
+  { src: relais4.url, alt: "Relais Castle Moroccan — Two-story courtyard with arches, columns and blue/white checkered floor with central basin" },
+  { src: relais5.url, alt: "Relais Castle Moroccan — View over green rural landscape from the property" },
+  { src: relais6.url, alt: "Relais Castle Moroccan — Courtyard with multiple levels of arches, columns and central fountain" },
+  { src: relais7.url, alt: "Relais Castle Moroccan — Castle-style facade with crenellated walls, Anosy Avaratra" },
+];
+
+const PROPERTY_MAPS: Record<string, { src: string; alt: string }[]> = {
+  "saint-mary-club": [
+    { src: smcMap01.url, alt: "Saint Mary Club — Location map: Tintingue Bay, Sainte-Marie Island, Manompana, Tanambe" },
+    { src: smcMap02.url, alt: "Saint Mary Club — Sainte-Marie Island (Nosy Boraha) site location with Tour Invest Immo S.A" },
+  ],
+  "antetezambaro": [
+    { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
+  ],
+  "mika-antsohihy": [
+    { src: mikaMap, alt: "MIKA Antsohihy — Sofia Region location map, Northwest Madagascar" },
+  ],
+  "sahaza-ii": [
+    { src: sahazaiiMap, alt: "SAHAZA II — Aerial location map, Antsahamaharafoza" },
+  ],
+};
 
 
 const SAHAZA_I_IMAGES = [
@@ -348,8 +380,20 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "andohagara" ? ANDOHAGARA_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "andohagara" ? ANDOHAGARA_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : p.id === "relais-castle" ? RELAIS_CASTLE_IMAGES : []}
                     />
+                    {PROPERTY_MAPS[p.id] && (
+                      <div className="space-y-4 rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-luxury text-gold">
+                          <MapPin className="h-3.5 w-3.5" /> {t("re.mapsAndPlans")}
+                        </div>
+                        <PropertyGallery
+                          placeholderCount={PROPERTY_MAPS[p.id].length}
+                          label={`${p.title} — Maps & Plans`}
+                          images={PROPERTY_MAPS[p.id]}
+                        />
+                      </div>
+                    )}
 
                     <div className="grid gap-4 sm:grid-cols-2">
                       <div className="rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
