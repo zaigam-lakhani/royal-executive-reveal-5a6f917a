@@ -380,8 +380,20 @@ function RealEstatePage() {
                     <PropertyGallery
                       placeholderCount={6}
                       label={p.title}
-                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "andohagara" ? ANDOHAGARA_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : []}
+                      images={p.id === "sahaza-i" ? SAHAZA_I_IMAGES : p.id === "sahaza-ii" ? SAHAZA_II_IMAGES : p.id === "andohagara" ? ANDOHAGARA_IMAGES : p.id === "toliary-sisal" ? TOLIARY_SISAL_IMAGES : p.id === "manambato-rasoabe" ? MANAMBATO_IMAGES : p.id === "anakao-soalara" ? ANAKAO_IMAGES : p.id === "antetezambaro" ? ANTETEZAMBARO_IMAGES : p.id === "mika-antsohihy" ? MIKA_IMAGES : p.id === "ilo-manana" ? ILO_MANANA_IMAGES : p.id === "sainte-marie-seafront" ? SAINTE_MARIE_AMPANIHY_IMAGES : p.id === "manompagna" ? MANOMPAGNA_IMAGES : p.id === "analanjirofo" ? ANALANJIROFO_IMAGES : p.id === "saint-mary-club" ? SAINT_MARY_CLUB_IMAGES : p.id === "relais-castle" ? RELAIS_CASTLE_IMAGES : []}
                     />
+                    {PROPERTY_MAPS[p.id] && (
+                      <div className="space-y-4 rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-luxury text-gold">
+                          <MapPin className="h-3.5 w-3.5" /> {t("re.mapsAndPlans")}
+                        </div>
+                        <PropertyGallery
+                          placeholderCount={PROPERTY_MAPS[p.id].length}
+                          label={`${p.title} — Maps & Plans`}
+                          images={PROPERTY_MAPS[p.id]}
+                        />
+                      </div>
+                    )}
 
                     <div className="grid gap-4 sm:grid-cols-2">
                       <div className="rounded-2xl border border-[color-mix(in_oklab,var(--gold)_18%,transparent)] bg-background/40 p-5">
