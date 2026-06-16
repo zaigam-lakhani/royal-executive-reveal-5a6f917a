@@ -120,7 +120,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.form.submit": "Send Message",
     "contact.form.sent": "Message received — thank you",
     "contact.hq": "Headquarters",
-    "contact.address": "Antananarivo, Madagascar",
+    "contact.address": "Synaps Group, inside the Grillon Ankorondrano, Antananarivo, Madagascar",
 
     "footer.about": "Real estate agency — investment, management and development, mining expertise, agribusiness, international trade, and social impact projects from Madagascar to the world.",
     "footer.rights": "All rights reserved.",
