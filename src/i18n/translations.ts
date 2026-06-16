@@ -235,7 +235,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.form.submit": "Envoyer le Message",
     "contact.form.sent": "Message reçu — merci",
     "contact.hq": "Siège Social",
-    "contact.address": "Antananarivo, Madagascar",
+    "contact.address": "Groupe Synaps, à l'intérieur du Grillon Ankorondrano, Antananarivo, Madagascar",
 
     "footer.about": "Agence immobilière — investissement, gestion et développement, expertise minière, agro-industrie, commerce international et projets à impact social, de Madagascar vers le monde.",
     "footer.rights": "Tous droits réservés.",
@@ -350,7 +350,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.form.submit": "إرسال الرسالة",
     "contact.form.sent": "تم استلام الرسالة — شكراً",
     "contact.hq": "المقر الرئيسي",
-    "contact.address": "أنتاناناريفو، مدغشقر",
+    "contact.address": "مجموعة سينابس، داخل جريلون أنكوروندرانو، أنتاناناريفو، مدغشقر",
 
     "footer.about": "وكالة عقارية — استثمار وإدارة وتطوير، خبرة تعدينية، أعمال زراعية، تجارة دولية ومشاريع ذات أثر اجتماعي، من مدغشقر إلى العالم.",
     "footer.rights": "جميع الحقوق محفوظة.",
@@ -465,7 +465,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.form.submit": "Invia Messaggio",
     "contact.form.sent": "Messaggio ricevuto — grazie",
     "contact.hq": "Sede Centrale",
-    "contact.address": "Antananarivo, Madagascar",
+    "contact.address": "Gruppo Synaps, all'interno del Grillon Ankorondrano, Antananarivo, Madagascar",
 
     "footer.about": "Agenzia immobiliare — investimento, gestione e sviluppo, competenze minerarie, agroindustria, commercio internazionale e progetti a impatto sociale, dal Madagascar al mondo.",
     "footer.rights": "Tutti i diritti riservati.",
@@ -580,7 +580,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.form.submit": "发送消息",
     "contact.form.sent": "消息已收到 — 谢谢",
     "contact.hq": "总部",
-    "contact.address": "塔那那利佛,马达加斯加",
+    "contact.address": "Synaps Group，马达加斯加塔那那利佛 Grillon Ankorondrano 内",
 
     "footer.about": "房地产代理——投资、管理与开发,采矿专业,农业综合,国际贸易及社会公益项目,从马达加斯加走向世界。",
     "footer.rights": "版权所有。",
