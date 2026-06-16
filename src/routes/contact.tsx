@@ -25,9 +25,8 @@ export const Route = createFileRoute("/contact")({
           telephone: "+261 32 00 000 00",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Grillon Ankorondrano",
             addressLocality: "Antananarivo",
-            addressCountry: "Madagascar",
+            addressCountry: "MG",
           },
           areaServed: "Madagascar",
         }),
@@ -93,10 +92,8 @@ function ContactPage() {
               <h3 className="font-serif text-2xl text-ivory">{t("contact.hq")}</h3>
               <div className="my-5 gold-divider opacity-50" />
               <ul className="space-y-5 text-sm text-ivory/85">
-<li className="flex items-start gap-4">
-  <MapPin className="mt-0.5 h-4 w-4 text-gold" />
-  Synaps Group, inside the Grillon Ankorondrano, Antananarivo, Madagascar +261XXXXXXXX
-</li>                <li className="flex items-start gap-4"><Mail className="mt-0.5 h-4 w-4 text-gold" /> <a href="mailto:contact@synapsgroup.com" className="royal-link">contact@synapsgroup.com</a></li>
+                <li className="flex items-start gap-4"><MapPin className="mt-0.5 h-4 w-4 text-gold" /> {t("contact.address")}</li>
+                <li className="flex items-start gap-4"><Mail className="mt-0.5 h-4 w-4 text-gold" /> <a href="mailto:contact@synapsgroup.com" className="royal-link">contact@synapsgroup.com</a></li>
                 <li className="flex items-start gap-4"><Phone className="mt-0.5 h-4 w-4 text-gold" /> +261 34 00 000 00</li>
               </ul>
 
