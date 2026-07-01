@@ -6,4 +6,9 @@
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig();
+// Force Nitro on with the Vercel preset for self-hosted builds (e.g. on Vercel CI).
+// Inside a Lovable build, the Cloudflare preset is still forced — this override only
+// applies when building outside the Lovable sandbox.
+export default defineConfig({
+  nitro: { preset: "vercel" },
+});
