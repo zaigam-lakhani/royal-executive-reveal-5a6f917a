@@ -76,107 +76,107 @@ import ilo7 from "@/assets/ilo-manana/07.jpg";
 import ilo8 from "@/assets/ilo-manana/08.jpg";
 import ilo9 from "@/assets/ilo-manana/09.jpg";
 import ilo10 from "@/assets/ilo-manana/10.jpg";
-import ilo11Asset from "@/assets/ilo-manana-uploads/image-27.png.asset.json";
-import ilo12Asset from "@/assets/ilo-manana-uploads/image-28.png.asset.json";
-import ilo13Asset from "@/assets/ilo-manana-uploads/image-29.png.asset.json";
-import ilo14Asset from "@/assets/ilo-manana-uploads/image-30.png.asset.json";
-import ilo15Asset from "@/assets/ilo-manana-uploads/image-31.png.asset.json";
-import ampanihy01 from "@/assets/sainte-marie-ampanihy/01.png.asset.json";
-import ampanihy02 from "@/assets/sainte-marie-ampanihy/02.png.asset.json";
-import ampanihy03 from "@/assets/sainte-marie-ampanihy/03.png.asset.json";
-import ampanihy04 from "@/assets/sainte-marie-ampanihy/04.png.asset.json";
-import ampanihy05 from "@/assets/sainte-marie-ampanihy/05.png.asset.json";
-import ampanihy06 from "@/assets/sainte-marie-ampanihy/06.png.asset.json";
-import ampanihy07 from "@/assets/sainte-marie-ampanihy/07.png.asset.json";
-import ampanihy08 from "@/assets/sainte-marie-ampanihy/08.png.asset.json";
-import ampanihy09 from "@/assets/sainte-marie-ampanihy/09.png.asset.json";
-import ampanihy10 from "@/assets/sainte-marie-ampanihy/10.png.asset.json";
-import manompagna01 from "@/assets/manompagna-uploads/image-11.png.asset.json";
-import manompagna02 from "@/assets/manompagna-uploads/image-12.png.asset.json";
-import manompagna03 from "@/assets/manompagna-uploads/image-13.png.asset.json";
-import manompagna04 from "@/assets/manompagna-uploads/image-14.png.asset.json";
-import manompagna05 from "@/assets/manompagna-uploads/image-15.png.asset.json";
-import analanjirofoU1 from "@/assets/analanjirofo-uploads/image-16.png.asset.json";
-import analanjirofoU2 from "@/assets/analanjirofo-uploads/image-17.png.asset.json";
-import analanjirofoU3 from "@/assets/analanjirofo-uploads/image-18.png.asset.json";
-import smc19 from "@/assets/saint-mary-club-uploads/image-19.png.asset.json";
-import smc20 from "@/assets/saint-mary-club-uploads/image-20.png.asset.json";
-import smc21 from "@/assets/saint-mary-club-uploads/image-21.png.asset.json";
-import smc22 from "@/assets/saint-mary-club-uploads/image-22.png.asset.json";
-import smc23 from "@/assets/saint-mary-club-uploads/image-23.png.asset.json";
-import smc24 from "@/assets/saint-mary-club-uploads/image-24.png.asset.json";
-import smc25 from "@/assets/saint-mary-club-uploads/image-25.png.asset.json";
-import smc26 from "@/assets/saint-mary-club-uploads/image-26.png.asset.json";
-import andohagara32 from "@/assets/andohagara-uploads/image-32.png.asset.json";
-import andohagara33 from "@/assets/andohagara-uploads/image-33.png.asset.json";
-import andohagara34 from "@/assets/andohagara-uploads/image-34.png.asset.json";
-import andohagara35 from "@/assets/andohagara-uploads/image-35.png.asset.json";
-import andohagara36 from "@/assets/andohagara-uploads/image-36.png.asset.json";
-import andohagara37 from "@/assets/andohagara-uploads/image-37.png.asset.json";
-import andohagara38 from "@/assets/andohagara-uploads/image-38.png.asset.json";
-import andohagara39 from "@/assets/andohagara-uploads/image-39.png.asset.json";
-import andohagara40 from "@/assets/andohagara-uploads/image-40.png.asset.json";
-import andohagara41 from "@/assets/andohagara-uploads/image-41.png.asset.json";
-import smcMap01 from "@/assets/saint-mary-club-maps/map-01.png.asset.json";
-import smcMap02 from "@/assets/saint-mary-club-maps/map-02.png.asset.json";
-import relais1 from "@/assets/relais-castle-uploads/image-1.jpg.asset.json";
-import relais2 from "@/assets/relais-castle-uploads/image-2.jpg.asset.json";
-import relais3 from "@/assets/relais-castle-uploads/image-3.jpg.asset.json";
-import relais4 from "@/assets/relais-castle-uploads/image-4.jpg.asset.json";
-import relais5 from "@/assets/relais-castle-uploads/image-5.jpg.asset.json";
-import relais6 from "@/assets/relais-castle-uploads/image-6.jpg.asset.json";
-import relais7 from "@/assets/relais-castle-uploads/image-7.jpg.asset.json";
+import ilo11Asset from "@/assets/ilo-manana-uploads/image-27.png";
+import ilo12Asset from "@/assets/ilo-manana-uploads/image-28.png";
+import ilo13Asset from "@/assets/ilo-manana-uploads/image-29.png";
+import ilo14Asset from "@/assets/ilo-manana-uploads/image-30.png";
+import ilo15Asset from "@/assets/ilo-manana-uploads/image-31.png";
+import ampanihy01 from "@/assets/sainte-marie-ampanihy/01.png";
+import ampanihy02 from "@/assets/sainte-marie-ampanihy/02.png";
+import ampanihy03 from "@/assets/sainte-marie-ampanihy/03.png";
+import ampanihy04 from "@/assets/sainte-marie-ampanihy/04.png";
+import ampanihy05 from "@/assets/sainte-marie-ampanihy/05.png";
+import ampanihy06 from "@/assets/sainte-marie-ampanihy/06.png";
+import ampanihy07 from "@/assets/sainte-marie-ampanihy/07.png";
+import ampanihy08 from "@/assets/sainte-marie-ampanihy/08.png";
+import ampanihy09 from "@/assets/sainte-marie-ampanihy/09.png";
+import ampanihy10 from "@/assets/sainte-marie-ampanihy/10.png";
+import manompagna01 from "@/assets/manompagna-uploads/image-11.png";
+import manompagna02 from "@/assets/manompagna-uploads/image-12.png";
+import manompagna03 from "@/assets/manompagna-uploads/image-13.png";
+import manompagna04 from "@/assets/manompagna-uploads/image-14.png";
+import manompagna05 from "@/assets/manompagna-uploads/image-15.png";
+import analanjirofoU1 from "@/assets/analanjirofo-uploads/image-16.png";
+import analanjirofoU2 from "@/assets/analanjirofo-uploads/image-17.png";
+import analanjirofoU3 from "@/assets/analanjirofo-uploads/image-18.png";
+import smc19 from "@/assets/saint-mary-club-uploads/image-19.png";
+import smc20 from "@/assets/saint-mary-club-uploads/image-20.png";
+import smc21 from "@/assets/saint-mary-club-uploads/image-21.png";
+import smc22 from "@/assets/saint-mary-club-uploads/image-22.png";
+import smc23 from "@/assets/saint-mary-club-uploads/image-23.png";
+import smc24 from "@/assets/saint-mary-club-uploads/image-24.png";
+import smc25 from "@/assets/saint-mary-club-uploads/image-25.png";
+import smc26 from "@/assets/saint-mary-club-uploads/image-26.png";
+import andohagara32 from "@/assets/andohagara-uploads/image-32.png";
+import andohagara33 from "@/assets/andohagara-uploads/image-33.png";
+import andohagara34 from "@/assets/andohagara-uploads/image-34.png";
+import andohagara35 from "@/assets/andohagara-uploads/image-35.png";
+import andohagara36 from "@/assets/andohagara-uploads/image-36.png";
+import andohagara37 from "@/assets/andohagara-uploads/image-37.png";
+import andohagara38 from "@/assets/andohagara-uploads/image-38.png";
+import andohagara39 from "@/assets/andohagara-uploads/image-39.png";
+import andohagara40 from "@/assets/andohagara-uploads/image-40.png";
+import andohagara41 from "@/assets/andohagara-uploads/image-41.png";
+import smcMap01 from "@/assets/saint-mary-club-maps/map-01.png";
+import smcMap02 from "@/assets/saint-mary-club-maps/map-02.png";
+import relais1 from "@/assets/relais-castle-uploads/image-1.jpg";
+import relais2 from "@/assets/relais-castle-uploads/image-2.jpg";
+import relais3 from "@/assets/relais-castle-uploads/image-3.jpg";
+import relais4 from "@/assets/relais-castle-uploads/image-4.jpg";
+import relais5 from "@/assets/relais-castle-uploads/image-5.jpg";
+import relais6 from "@/assets/relais-castle-uploads/image-6.jpg";
+import relais7 from "@/assets/relais-castle-uploads/image-7.jpg";
 
 const SAINT_MARY_CLUB_IMAGES = [
-  { src: smc25.url, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
-  { src: smc21.url, alt: "Saint Mary Club — Whale sculpture in the tropical garden by the pool" },
-  { src: smc19.url, alt: "Saint Mary Club — Restaurant interior with tropical decor" },
-  { src: smc20.url, alt: "Saint Mary Club — Large restaurant dining hall" },
-  { src: smc26.url, alt: "Saint Mary Club — Bungalow interior bedroom with sea view" },
-  { src: smc23.url, alt: "Saint Mary Club — Soundproofed bungalow nestled among trees" },
-  { src: smc24.url, alt: "Saint Mary Club — Bungalow exterior surrounded by lush vegetation" },
-  { src: smc22.url, alt: "Saint Mary Club — Open landscaped grounds of the 21 Ha estate" },
+  { src: smc25, alt: "Saint Mary Club — Private beach with turquoise lagoon, Sainte-Marie Island" },
+  { src: smc21, alt: "Saint Mary Club — Whale sculpture in the tropical garden by the pool" },
+  { src: smc19, alt: "Saint Mary Club — Restaurant interior with tropical decor" },
+  { src: smc20, alt: "Saint Mary Club — Large restaurant dining hall" },
+  { src: smc26, alt: "Saint Mary Club — Bungalow interior bedroom with sea view" },
+  { src: smc23, alt: "Saint Mary Club — Soundproofed bungalow nestled among trees" },
+  { src: smc24, alt: "Saint Mary Club — Bungalow exterior surrounded by lush vegetation" },
+  { src: smc22, alt: "Saint Mary Club — Open landscaped grounds of the 21 Ha estate" },
 ];
 
 const ANDOHAGARA_IMAGES = [
-  { src: andohagara32.url, alt: "Andohagara — Amborovy Airport: access tracks and open buildable land near Mahajanga" },
-  { src: andohagara33.url, alt: "Andohagara — Amborovy Airport: green flat land with open sky and distant structures" },
-  { src: andohagara34.url, alt: "Andohagara — Amborovy Airport: sandy path crossing the grassy property" },
-  { src: andohagara35.url, alt: "Andohagara — Amborovy Airport: wide meadow area with mature tree on the plot" },
-  { src: andohagara36.url, alt: "Andohagara — Amborovy Airport: panoramic view across the flat secured land" },
-  { src: andohagara37.url, alt: "Andohagara — Amborovy Airport: dual-access sandy road approaching the site" },
-  { src: andohagara38.url, alt: "Andohagara — Amborovy Airport: vegetated section of the property near neighboring buildings" },
-  { src: andohagara39.url, alt: "Andohagara — Amborovy Airport: roadside frontage with native vegetation and blue sky" },
-  { src: andohagara40.url, alt: "Andohagara — Amborovy Airport: crossroads-style access area on the property" },
-  { src: andohagara41.url, alt: "Andohagara — Amborovy Airport: ground marker detail on sandy soil" },
+  { src: andohagara32, alt: "Andohagara — Amborovy Airport: access tracks and open buildable land near Mahajanga" },
+  { src: andohagara33, alt: "Andohagara — Amborovy Airport: green flat land with open sky and distant structures" },
+  { src: andohagara34, alt: "Andohagara — Amborovy Airport: sandy path crossing the grassy property" },
+  { src: andohagara35, alt: "Andohagara — Amborovy Airport: wide meadow area with mature tree on the plot" },
+  { src: andohagara36, alt: "Andohagara — Amborovy Airport: panoramic view across the flat secured land" },
+  { src: andohagara37, alt: "Andohagara — Amborovy Airport: dual-access sandy road approaching the site" },
+  { src: andohagara38, alt: "Andohagara — Amborovy Airport: vegetated section of the property near neighboring buildings" },
+  { src: andohagara39, alt: "Andohagara — Amborovy Airport: roadside frontage with native vegetation and blue sky" },
+  { src: andohagara40, alt: "Andohagara — Amborovy Airport: crossroads-style access area on the property" },
+  { src: andohagara41, alt: "Andohagara — Amborovy Airport: ground marker detail on sandy soil" },
 ];
 
 
 const ANALANJIROFO_IMAGES = [
-  { src: analanjirofoU1.url, alt: "Analanjirofo — Soanierana Ivongo: inland path through coconut groves (Lot 1 Felankasina, Ampanihy)" },
-  { src: analanjirofoU2.url, alt: "Analanjirofo — Soanierana Ivongo: lush tropical vegetation on the property (Lot 2 Herisoafanjava)" },
-  { src: analanjirofoU3.url, alt: "Analanjirofo — Soanierana Ivongo: beachfront with native trees and ocean view (Lot 3 Sahasoa-II)" },
+  { src: analanjirofoU1, alt: "Analanjirofo — Soanierana Ivongo: inland path through coconut groves (Lot 1 Felankasina, Ampanihy)" },
+  { src: analanjirofoU2, alt: "Analanjirofo — Soanierana Ivongo: lush tropical vegetation on the property (Lot 2 Herisoafanjava)" },
+  { src: analanjirofoU3, alt: "Analanjirofo — Soanierana Ivongo: beachfront with native trees and ocean view (Lot 3 Sahasoa-II)" },
 ];
 
 const MANOMPAGNA_IMAGES = [
-  { src: manompagna01.url, alt: "Manompagna — Coastal land with ocean view and native vegetation" },
-  { src: manompagna02.url, alt: "Manompagna — Beachfront with palms and tropical foliage" },
-  { src: manompagna03.url, alt: "Manompagna — White sand beach along the shoreline" },
-  { src: manompagna04.url, alt: "Manompagna — Lush green inland landscape of the property" },
-  { src: manompagna05.url, alt: "Manompagna — Ampanihy dune and coastal vegetation panorama" },
+  { src: manompagna01, alt: "Manompagna — Coastal land with ocean view and native vegetation" },
+  { src: manompagna02, alt: "Manompagna — Beachfront with palms and tropical foliage" },
+  { src: manompagna03, alt: "Manompagna — White sand beach along the shoreline" },
+  { src: manompagna04, alt: "Manompagna — Lush green inland landscape of the property" },
+  { src: manompagna05, alt: "Manompagna — Ampanihy dune and coastal vegetation panorama" },
 ];
 
 const SAINTE_MARIE_AMPANIHY_IMAGES = [
-  { src: ampanihy01.url, alt: "Sainte-Marie — Ampanihy 65 Ha: view from afar across Felankasina lake" },
-  { src: ampanihy02.url, alt: "Sainte-Marie — Ampanihy 65 Ha: turquoise sea view from boat" },
-  { src: ampanihy03.url, alt: "Sainte-Marie — Ampanihy 65 Ha: titled land boundary marker on the beach" },
-  { src: ampanihy04.url, alt: "Sainte-Marie — Ampanihy 65 Ha: white sand dunes and ocean horizon" },
-  { src: ampanihy05.url, alt: "Sainte-Marie — Ampanihy 65 Ha: beachfront panorama with native vegetation" },
-  { src: ampanihy06.url, alt: "Sainte-Marie — Ampanihy 65 Ha: coastal dune landscape" },
-  { src: ampanihy07.url, alt: "Sainte-Marie — Ampanihy 65 Ha: lush tropical vegetation on the plot" },
-  { src: ampanihy08.url, alt: "Sainte-Marie — Ampanihy 65 Ha: coconut palms and natural pathways" },
-  { src: ampanihy09.url, alt: "Sainte-Marie — Ampanihy 65 Ha: green inland landscape of the property" },
-  { src: ampanihy10.url, alt: "Sainte-Marie — Ampanihy 65 Ha: beach access through coastal greenery" },
+  { src: ampanihy01, alt: "Sainte-Marie — Ampanihy 65 Ha: view from afar across Felankasina lake" },
+  { src: ampanihy02, alt: "Sainte-Marie — Ampanihy 65 Ha: turquoise sea view from boat" },
+  { src: ampanihy03, alt: "Sainte-Marie — Ampanihy 65 Ha: titled land boundary marker on the beach" },
+  { src: ampanihy04, alt: "Sainte-Marie — Ampanihy 65 Ha: white sand dunes and ocean horizon" },
+  { src: ampanihy05, alt: "Sainte-Marie — Ampanihy 65 Ha: beachfront panorama with native vegetation" },
+  { src: ampanihy06, alt: "Sainte-Marie — Ampanihy 65 Ha: coastal dune landscape" },
+  { src: ampanihy07, alt: "Sainte-Marie — Ampanihy 65 Ha: lush tropical vegetation on the plot" },
+  { src: ampanihy08, alt: "Sainte-Marie — Ampanihy 65 Ha: coconut palms and natural pathways" },
+  { src: ampanihy09, alt: "Sainte-Marie — Ampanihy 65 Ha: green inland landscape of the property" },
+  { src: ampanihy10, alt: "Sainte-Marie — Ampanihy 65 Ha: beach access through coastal greenery" },
 ];
 
 const ILO_MANANA_IMAGES = [
@@ -190,11 +190,11 @@ const ILO_MANANA_IMAGES = [
   { src: ilo8, alt: "Ambohimarina — ILO MANANA: existing landscaped area on the estate" },
   { src: ilo9, alt: "Ambohimarina — ILO MANANA: lake view with existing basin and gardens" },
   { src: ilo10, alt: "Ambohimarina — ILO MANANA: Lake Iarivo panorama from the plot" },
-  { src: ilo11Asset.url, alt: "Ambohimarina — ILO MANANA: prepared dirt access road across the plateau" },
-  { src: ilo12Asset.url, alt: "Ambohimarina — ILO MANANA: pine grove with Lake Iarivo in the background" },
-  { src: ilo13Asset.url, alt: "Ambohimarina — ILO MANANA: open grasslands with mature pines and power line access" },
-  { src: ilo14Asset.url, alt: "Ambohimarina — ILO MANANA: panoramic view over Lake Iarivo from the property" },
-  { src: ilo15Asset.url, alt: "Ambohimarina — ILO MANANA: Lake Iarivo shoreline with reeds and banana trees" },
+  { src: ilo11Asset, alt: "Ambohimarina — ILO MANANA: prepared dirt access road across the plateau" },
+  { src: ilo12Asset, alt: "Ambohimarina — ILO MANANA: pine grove with Lake Iarivo in the background" },
+  { src: ilo13Asset, alt: "Ambohimarina — ILO MANANA: open grasslands with mature pines and power line access" },
+  { src: ilo14Asset, alt: "Ambohimarina — ILO MANANA: panoramic view over Lake Iarivo from the property" },
+  { src: ilo15Asset, alt: "Ambohimarina — ILO MANANA: Lake Iarivo shoreline with reeds and banana trees" },
 ];
 
 const ANAKAO_IMAGES = [
@@ -266,19 +266,19 @@ const SAHAZA_II_IMAGES = [
 ];
 
 const RELAIS_CASTLE_IMAGES = [
-  { src: relais1.url, alt: "Relais Castle Moroccan — Multi-story building with castle-like crenellated walls and arched openings" },
-  { src: relais2.url, alt: "Relais Castle Moroccan — Moroccan-style facade with arched windows" },
-  { src: relais3.url, alt: "Relais Castle Moroccan — Courtyard with arches and columns" },
-  { src: relais4.url, alt: "Relais Castle Moroccan — Two-story courtyard with arches, columns and blue/white checkered floor with central basin" },
-  { src: relais5.url, alt: "Relais Castle Moroccan — View over green rural landscape from the property" },
-  { src: relais6.url, alt: "Relais Castle Moroccan — Courtyard with multiple levels of arches, columns and central fountain" },
-  { src: relais7.url, alt: "Relais Castle Moroccan — Castle-style facade with crenellated walls, Anosy Avaratra" },
+  { src: relais1, alt: "Relais Castle Moroccan — Multi-story building with castle-like crenellated walls and arched openings" },
+  { src: relais2, alt: "Relais Castle Moroccan — Moroccan-style facade with arched windows" },
+  { src: relais3, alt: "Relais Castle Moroccan — Courtyard with arches and columns" },
+  { src: relais4, alt: "Relais Castle Moroccan — Two-story courtyard with arches, columns and blue/white checkered floor with central basin" },
+  { src: relais5, alt: "Relais Castle Moroccan — View over green rural landscape from the property" },
+  { src: relais6, alt: "Relais Castle Moroccan — Courtyard with multiple levels of arches, columns and central fountain" },
+  { src: relais7, alt: "Relais Castle Moroccan — Castle-style facade with crenellated walls, Anosy Avaratra" },
 ];
 
 const PROPERTY_MAPS: Record<string, { src: string; alt: string }[]> = {
   "saint-mary-club": [
-    { src: smcMap01.url, alt: "Saint Mary Club — Location map: Tintingue Bay, Sainte-Marie Island, Manompana, Tanambe" },
-    { src: smcMap02.url, alt: "Saint Mary Club — Sainte-Marie Island (Nosy Boraha) site location with Tour Invest Immo S.A" },
+    { src: smcMap01, alt: "Saint Mary Club — Location map: Tintingue Bay, Sainte-Marie Island, Manompana, Tanambe" },
+    { src: smcMap02, alt: "Saint Mary Club — Sainte-Marie Island (Nosy Boraha) site location with Tour Invest Immo S.A" },
   ],
   "antetezambaro": [
     { src: antetezMap, alt: "Antetezambaro — Google Maps location, Toamasina II" },
